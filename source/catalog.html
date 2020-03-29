@@ -10,26 +10,26 @@
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Меню</button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a>О сервисе</a>
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="index.html">О сервисе</a>
             </li>
-            <li class="site-list__item">
-              <a href="form.html">Направления</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">Направления</a>
             </li>
-            <li class="site-list__item">
-              <a href="catalog.html">Попутчики</a>
+            <li class="main-nav__item">
+              <a class="main-nav__link">Попутчики</a>
             </li>
           </ul>
         </div>
       </nav>
-      <div class="current-page">
-        <p class="current-page__title">Попутчики</p>
+      <div class="page-head">
+        <h1 class="page-head__title">Попутчики</h1>
       </div>
     </header>
     <main>
       <div class="country-filter">
-        <div class="country-filter__collapsed">Фильтрация по странам</div>
+        <h2 class="country-filter__collapsed">Фильтрация по странам</h2>
         <div class="country-filter__wrapper">
           <button class="cross-button" type="button" name="button">Закрыть</button>
           <form class="country-filter__form" action="https://echo.htmlacademy.ru" method="get">
@@ -92,7 +92,7 @@
       </div>
       <div class="cotravelers-filter">
         <h2 class="cotravelers-filter__title">Подберите идеального поппутчика</h2>
-        <form action="https://echo.htmlacademy.ru" method="post">
+        <form action="https://echo.htmlacademy.ru" method="get">
           <fieldset class="cotravelers-filter__feature filter-feature">
             <legend class="filter-feature__title">Хобби</legend>
             <div class="filter-feature__wrapper"></div>
@@ -127,10 +127,30 @@
             <legend class="filter-feature__title">Транспорт</legend>
             <div class="filter-feature__wrapper">
               <ul class="transport__list">
-                <li class="transport__item plane--active"><span class="vaisualy-hidden">Самолёт</span></li>
-                <li class="transport__item bus--active"><span class="vaisualy-hidden">Автобус</span></li>
-                <li class="transport__item bike--inactive"><span class="vaisualy-hidden">Велосипед</span></li>
-                <li class="transport__item walk--active"><span class="vaisualy-hidden">Хайкинг</span></li>
+                <li class="transport__item">
+                  <label class="transport__label">
+                    <span class="visually-hidden">Самолёт</span>
+                    <input class="transport__plane" type="checkbox" value="plane" checked>
+                  </label>
+                </li>
+                <li class="transport__item">
+                  <label class="transport__label">
+                    <span class="visually-hidden">Автобус</span>
+                    <input class="transport__bus" type="checkbox" value="bus" checked>
+                  </label>
+                </li>
+                <li class="transport__item">
+                  <label class="transport__label">
+                    <span class="visually-hidden">Велосипед</span>
+                    <input class="transport__bike" type="checkbox" value="bike">
+                  </label>
+                </li>
+                <li class="transport__item">
+                  <label class="transport__label">
+                    <span class="visually-hidden">Хайкинг</span>
+                    <input class="transport__walk" type="checkbox" value="walk" checked>
+                  </label>
+                </li>
               </ul>
             </div>
           </fieldset>
@@ -138,12 +158,17 @@
             <span class="filter-feature__title">Левел</span>
             <div class="filter-feature__wrapper">
               <div class="filter-feature__digit-range digit-range">
-                <div class="digit-range__value">30</div>
-                <div class="digit-range__dash">-</div>
-                <div class="digit-range__value">100</div>
+                <label>
+                  <span class="visually-hidden">Лэвэл от</span>
+                  <input class="digit-range__value" type="text" value="30"></input>
+                </label>
+                <label>
+                  <span class="visually-hidden">Лэвэл до</span>
+                  <input class="digit-range__value" type="text" value="100"></input>
+                </label>
               </div>
               <div class="filter-feature__slider-range slider-range">
-                <div class="slider-range__line--unactive"></div>
+                <div class="slider-range__line slider-range__line--unactive"></div>
                 <div class="slider-range__line"></div>
                 <div class="slider-range__circle"></div>
                 <div class="slider-range__circle"></div>
@@ -191,10 +216,10 @@
             <fieldset class="cotraveler__transport transport">
               <legend class="transport__legend">транспорт:</legend>
               <ul class="transport__list">
-                <li class="transport__item plane--active"><span class="vaisualy-hidden">Самолёт</span></li>
-                <li class="transport__item bus--inactive"><span class="vaisualy-hidden">Автобус</span></li>
-                <li class="transport__item bike--inactive"><span class="vaisualy-hidden">Велосипед</span></li>
-                <li class="transport__item walk--inactive"><span class="vaisualy-hidden">Хайкинг</span></li>
+                <li class="transport__item plane"><span class="visually-hidden">Самолёт</span></li>
+                <li class="transport__item bus bus--inactive"><span class="visually-hidden">Автобус</span></li>
+                <li class="transport__item bike"><span class="visually-hidden">Велосипед</span></li>
+                <li class="transport__item walk"><span class="visually-hidden">Хайкинг</span></li>
               </ul>
             </fieldset>
             <div class="cotraveler__level level">
@@ -234,10 +259,18 @@
             <fieldset class="cotraveler__transport transport">
               <legend class="transport__legend">транспорт:</legend>
               <ul class="transport__list">
-                <li class="transport__item plane--active"><span class="vaisualy-hidden">Самолёт</span></li>
-                <li class="transport__item bus--active"><span class="vaisualy-hidden">Автобус</span></li>
-                <li class="transport__item bike--inactive"><span class="vaisualy-hidden">Веловипед</span></li>
-                <li class="transport__item walk--active"><span class="vaisualy-hidden">Хайкинг</span></li>
+                <li class="transport__item plane">
+                  <span class="visually-hidden">Самолёт</span>
+                </li>
+                <li class="transport__item bus">
+                  <span class="visually-hidden">Автобус</span>
+                </li>
+                <li class="transport__item bike bike--inactive">
+                  <span class="visually-hidden">Веловипед</span>
+                </li>
+                <li class="transport__item walk">
+                  <span class="visually-hidden">Хайкинг</span>
+                </li>
               </ul>
             </fieldset>
             <div class="cotraveler__level level">
@@ -281,10 +314,18 @@
             <fieldset class="cotraveler__transport transport">
               <legend class="transport__legend">транспорт:</legend>
               <ul class="transport__list">
-                <li class="transport__item plane--active"><span class="vaisualy-hidden">Самолёт</span></li>
-                <li class="transport__item bus--inactive"><span class="vaisualy-hidden">Автобус</span></li>
-                <li class="transport__item bike--active"><span class="vaisualy-hidden">Велосипед</span></li>
-                <li class="transport__item walk--inactive"><span class="vaisualy-hidden">Хайкинг</span></li>
+                <li class="transport__item plane">
+                  <span class="visually-hidden">Самолёт</span>
+                </li>
+                <li class="transport__item bus bus--inactive">
+                  <span class="visually-hidden">Автобус</span>
+                </li>
+                <li class="transport__item bike">
+                  <span class="visually-hidden">Велосипед</span>
+                </li>
+                <li class="transport__item walk">
+                  <span class="visually-hidden">Хайкинг</span>
+                </li>
               </ul>
             </fieldset>
             <div class="cotraveler__level level">
@@ -323,10 +364,10 @@
             <fieldset class="cotraveler__transport transport">
               <legend class="transport__legend">транспорт:</legend>
               <ul class="transport__list">
-                <li class="transport__item plane--active"><span class="vaisualy-hidden">Самолёт</span></li>
-                <li class="transport__item bus--active"><span class="vaisualy-hidden">Автобус</span></li>
-                <li class="transport__item bike--inactive"><span class="vaisualy-hidden">Велосипед</span></li>
-                <li class="transport__item walk--inactive"><span class="vaisualy-hidden">Хайкинг</span></li>
+                <li class="transport__item plane"><span class="visually-hidden">Самолёт</span></li>
+                <li class="transport__item bus"><span class="visually-hidden">Автобус</span></li>
+                <li class="transport__item bike bike--inactive"><span class="visually-hidden">Велосипед</span></li>
+                <li class="transport__item walk walk--inactive"><span class="visually-hidden">Хайкинг</span></li>
               </ul>
             </fieldset>
             <div class="cotraveler__level level">
@@ -336,7 +377,7 @@
             <button class="site-button" type="button" name="button">Позвать!</button>
           </li>
         </ul>
-        <button class="site-button site-button--more-travelers" type="button" name="button">Показать еще</button>
+        <button class="site-button site-button--more-travelers" type="submit" name="button">Показать еще</button>
         <div class="carousel-buttons">
           <button class="carousel-buttons__item carousel-button__item--left" type="button" name="button"></button>
           <button class="carousel-buttons__item carousel-button__item--right" type="button" name="button"></button>
