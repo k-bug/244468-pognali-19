@@ -54,19 +54,15 @@
         <ol class="how-to">
           <li class="how-to__item">
             <p class="how-to__name">Выберите направление</p>
-            <p class="how-to__number">1</p>
           </li>
           <li class="how-to__item">
             <p class="how-to__name">Изучите идеи путешественников</p>
-            <p class="how-to__number">2</p>
           </li>
           <li class="how-to__item">
             <p class="how-to__name">Находите тех, кто похож на вас</p>
-            <p class="how-to__number">3</p>
           </li>
           <li class="how-to__item">
             <p class="how-to__name">Путешествуйте вместе!</p>
-            <p class="how-to__number">4</p>
           </li>
         </ol>
       </section>
@@ -92,25 +88,31 @@
           куда хотели бы отправиться и чем можно там заняться.</p>
         <ul class="country-list">
           <li class="country-card">
-            <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
-            <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Тайланда">
-            <h3 class="country-card__name">Таиланд</h3>
-            <p class="country-card__tizer">Джунгли зовут!</p>
-            <span class="country-card__visits">18321</span>
+            <a class="country-card__link">
+              <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
+              <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Тайланда">
+              <h3 class="country-card__name">Таиланд</h3>
+              <p class="country-card__tizer">Джунгли зовут!</p>
+              <span class="country-card__visits">18321<span class="visually-hidden"> человек интересуеся</span></span>
+            </a>
           </li>
           <li class="country-card">
-            <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
-            <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Франции">
-            <h3 class="country-card__name">Франция</h3>
-            <p class="country-card__tizer">Трэ бьен, манифик!</p>
-            <span class="country-card__visits">12518</span>
+            <a class="country-card__link">
+              <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
+              <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Франции">
+              <h3 class="country-card__name">Франция</h3>
+              <p class="country-card__tizer">Трэ бьен, манифик!</p>
+              <span class="country-card__visits">125181<span class="visually-hidden"> человек интересуеся</span></span>
+            </a>
           </li>
           <li class="country-card">
-            <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
-            <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Чехии">
-            <h3 class="country-card__name">Чехия</h3>
-            <p class="country-card__tizer">Закоулки старой Европы</p>
-            <span class="country-card__visits">5326</span>
+            <a class="country-card__link">
+              <img class="country-card__preview" src="https://via.placeholder.com/150x150" width="270" height="110" alt="">
+              <img class="country-card__flag" src="https://via.placeholder.com/150x150" width="35" height="24" alt="Флаг Чехии">
+              <h3 class="country-card__name">Чехия</h3>
+              <p class="country-card__tizer">Закоулки старой Европы</p>
+              <span class="country-card__visits">1<span class="visually-hidden"> человек интересуеся</span>5326</span>
+            </a>
           </li>
         </ul>
         <a class="site-button" type="button">Показать все</a>
@@ -123,58 +125,62 @@
         <b class="content-text">
           Теперь можно легко найти единомышленников!
         </b>
-        <ul>
-          <li class="tourist-card tourist-level">
-            <img class="tourist-card__photo" src="https://via.placeholder.com/150x150" width="" height="" alt="">
-            <div class="tourist-level__wrapper">
-              <p class="tourist-level__number">99</p>
-              <p class="tourist-level__text">level</p>
-            </div>
-            <ul class="desire-countries">
-              <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-            </ul>
-            <p class="tourist-card__name">Таня Фирсова</p>
-            <ul class="tag-list">
-              <li class="tag-list__item">#ЗОЖ</li>
-              <li class="tag-list__item">#ПП</li>
-              <li class="tag-list__item">#Фитнес</li>
-              <li class="tag-list__item">#пляж</li>
-              <li class="tag-list__item">#авокадо</li>
-              <li class="tag-list__item">#смузи</li>
-            </ul>
-            <ul class="transport-list">
-              <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-            </ul>
+        <ul class="companions__list">
+          <li class="companions__card tourist-level">
+            <a class="companions__link">
+              <img class="companions__photo" src="https://via.placeholder.com/150x150" width="" height="" alt="">
+              <div class="tourist-level__wrapper">
+                <p class="tourist-level__number">99</p>
+                <p class="tourist-level__text">level</p>
+              </div>
+              <ul class="companion__countries desire-countries">
+                <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+              </ul>
+              <p class="companions__name">Таня Фирсова</p>
+              <ul class="companions__tags tag-list">
+                <li class="tag-list__item">#ЗОЖ</li>
+                <li class="tag-list__item">#ПП</li>
+                <li class="tag-list__item">#Фитнес</li>
+                <li class="tag-list__item">#пляж</li>
+                <li class="tag-list__item">#авокадо</li>
+                <li class="tag-list__item">#смузи</li>
+              </ul>
+              <ul class="companion__transport transport-list">
+                <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+              </ul>
+            </a>
           </li>
-          <li class="tourist-card tourist-level">
-            <img class="tourist-card__photo" src="https://via.placeholder.com/150x150" width="" height="" alt="">
-            <div class="tourist-level__wrapper">
-              <p class="tourist-level__number">80</p>
-              <p class="tourist-level__text">level</p>
-            </div>
-            <ul class="desire-countries">
-              <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-            </ul>
-            <p class="tourist-card__name tourist-card__name--active">Петя Демин</p>
-            <ul class="tag-list">
-              <li class="tag-list__item">#бургер</li>
-              <li class="tag-list__item">#бар</li>
-              <li class="tag-list__item">#футбол</li>
-              <li class="tag-list__item">#концерт</li>
-              <li class="tag-list__item">#крафт</li>
-            </ul>
-            <ul class="transport-list">
-              <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-              <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
-            </ul>
+          <li class="companions__card tourist-level">
+            <a class="companions__link">
+              <img class="companions__photo" src="https://via.placeholder.com/150x150" width="" height="" alt="">
+              <div class="tourist-level__wrapper">
+                <p class="tourist-level__number">80</p>
+                <p class="tourist-level__text">level</p>
+              </div>
+              <ul class="companion__countries desire-countries">
+                <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="desire-countries__flag"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+              </ul>
+              <p class="companions__name companions__name--active">Петя Демин</p>
+              <ul class="companions__tags tag-list">
+                <li class="tag-list__item">#бургер</li>
+                <li class="tag-list__item">#бар</li>
+                <li class="tag-list__item">#футбол</li>
+                <li class="tag-list__item">#концерт</li>
+                <li class="tag-list__item">#крафт</li>
+              </ul>
+              <ul class="companion__transport transport-list">
+                <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+                <li class="transport-list__item transport-list__item--active"><img src="https://via.placeholder.com/150x150" width="" height="" alt=""></li>
+              </ul>
+            </a>
           </li>
         </ul>
         <a class="site-button" type="button">Показать всех</a>
