@@ -85,11 +85,11 @@
             <div class="indicator__item indicator__item--inactive"></div>
           </div>
         </div>
-        <div class="add-plan__step step">
-          <h3 class="step__heading"><span class="step__heading-number">Шаг 1.</span>Даты пребывания</h3>
-          <p class="content-text">Укажите предпочтительное количество попутчиков, которых
-          вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
-          <form class="step__form" action="https://echo.htmlacademy.ru" method="post">
+        <form class="step__form step-entertainments" action="https://echo.htmlacademy.ru" method="post">
+          <div class="add-plan__step step">
+            <h3 class="step__heading"><span class="step__heading-number">Шаг 1.</span>Даты пребывания</h3>
+            <p class="content-text">Укажите предпочтительное количество попутчиков, которых
+              вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
             <div class="step__item">
               <div class="step__label">
                 <span class="step__item-name">Ищу попутчиков:</span>
@@ -192,12 +192,10 @@
               </table>
             </div>
             <button class="site-button" type="button" name="button">Следующий шаг</button>
-          </form>
-        </div>
-        <div class="add-plan__step step">
-          <h3 class="step__heading"><span class="step__heading-number">Шаг 2.</span>Маршрут</h3>
-          <p class="content-text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
-          <form class="step__form" action="https://echo.htmlacademy.ru" method="post">
+          </div>
+          <div class="add-plan__step step">
+            <h3 class="step__heading"><span class="step__heading-number">Шаг 2.</span>Маршрут</h3>
+            <p class="content-text">Укажите страны, которые вы хотели по посетить. Это может быть одна или сразу несколько.</p>
             <div class="step__country-select country-select">
               <select class="country-select__option">
                 <option class="country-select__name" value="Bosnia_and_Herzegovina">Босния и Герцеговина</option>
@@ -223,13 +221,11 @@
             </div>
             <button class="site-button" type="button" name="button">Следующий шаг</button>
             <button class="site-button back-button" type="button" name="button">На шаг назад</button>
-          </form>
-        </div>
-        <div class="add-plan__step step">
-          <h3 class="step__heading"><span class="step__heading-number">Шаг 3.</span>Развлечения</h3>
-          <p class="content-text">Наконец, расскажите о своих планах времяпровождения.
-          Можно писать в свободной форме и ставить тэги.</p>
-          <form class="step__form step-entertainments" action="https://echo.htmlacademy.ru" method="post">
+          </div>
+          <div class="add-plan__step step">
+            <h3 class="step__heading"><span class="step__heading-number">Шаг 3.</span>Развлечения</h3>
+            <p class="content-text">Наконец, расскажите о своих планах времяпровождения.
+              Можно писать в свободной форме и ставить тэги.</p>
             <div class="step-entertainments__country country-data">
               <div class="country-data__wrapper">
                 <span class="country-data__name">Босния и Герцеговина</span>
@@ -244,10 +240,10 @@
               </div>
               <textarea class="step-entertainments__description" name="name" rows="8" cols="80" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
             </div>
-            <button class="site-button" type="button" name="button">Отправить</button>
+            <button class="site-button" type="submit" name="button">Отправить</button>
             <button class="site-button back-button" type="button" name="button">На шаг назад</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </section>
     </main>
     <footer class="page-footer">
