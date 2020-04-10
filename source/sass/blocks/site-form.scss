@@ -1,0 +1,46 @@
+.site-form {
+  position: relative;
+  //margin-top: 36px;
+  width: 270px;
+  margin: 36px auto 0;
+}
+
+.site-form__field {
+  width: 270px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  padding-left: 23px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  color: #444444;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site-form::placeholder {
+  opacity: 30%;
+}
+
+.site-form__button {
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.site-form__button:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 62px;
+  background-color: #ffd74b;
+  background-image: url("../img/triangle-arrow-right.svg");
+  border-radius: 10px;
+}

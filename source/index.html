@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Погнали</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
       <a class="page-header__logo-link">
-        <img class="page-header__logo" src="https://via.placeholder.com/150x150" width="" height="" alt="Логотип сервиса Погнали">
+        <img class="page-header__logo" src="img/logo-mobile-white@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Меню</button>
@@ -26,8 +27,8 @@
         </div>
       </nav>
     </header>
-    <main>
-      <h1 class="vaisualy-hidden">Погнали — сервис поиска попутчиков</h1>
+    <main class="main-content">
+      <h1 class="visually-hidden">Погнали — сервис поиска попутчиков</h1>
       <section class="presentation">
         <p class="presentation__description">
           В путешествие
@@ -49,7 +50,7 @@
         </ul>
         <blockquote class="presentation__quote quote">
           <p class="quote__content">«Лучшее приложение, что я видел в жизни!»</p>
-          <cite class="quote__author-name">Мурат Эльтазин главный редактор газеты «гаджетлайф»</cite>
+          <cite class="quote__author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</cite>
         </blockquote>
         <ol class="how-to">
           <li class="how-to__item">
@@ -68,14 +69,14 @@
       </section>
       <section class="content-section about">
         <h2 class="content-section__heading">О сервисе</h2>
-        <p class="content-text">
+        <p class="about__text content-text">
           Любое путешествие веселее
           с попутчиками, которые на
           одной волне с тобой! Делитесь
           своими идеями путешествий и
           черпайте вдохновение в чужих.
         </p>
-        <p class="content-text">
+        <p class="about__text content-text">
           <b>
             А если найдете кого-то
             близкого по духу — скорее
@@ -121,10 +122,10 @@
       </section>
       <section class="content-section companions">
         <h2 class="content-section__heading">Попутчики</h2>
-        <p class="content-text">
+        <p class="companions__text content-text">
           Все мы индивидуальны и у каждого свой взгляд на идеальный отдых.
           Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
-        <p class="content-text">
+        <p class="companions__text content-text">
           <b>
             Теперь можно легко найти единомышленников!
           </b>
@@ -209,27 +210,27 @@
       </section>
       <section class="content-section interested">
         <h2 class="content-section__heading">Заинтересовались?</h2>
-        <p class="content-text">
+        <p class="interested-text content-text">
           Зарегистрируйтесь,
           это быстро и бесплатно!
           Уже зарегистрированы? Тогда
           скорее <a class="content-link" href="#">авторизуйтесь</a>.
         </p>
         <form class="site-form" action="https://echo.htmlacademy.ru" method="post">
-          <label>
+          <label class="site-form__label">
             <span class="visually-hidden">e-mail</span>
             <input class="site-form__field" type="email" name="email" placeholder="E-mail" required>
           </label>
-          <button class="site-form__button" type="submit" name="button">Отправить</button>
+          <button class="site-form__button" type="submit" name="button"><div class="visually-hidden">Отправить</div></button>
         </form>
-        <p class="content-text">
+        <p class="interested-text content-text">
           Остались вопросы?
           Мы с радостью на них ответим!
         </p>
         <p class="contact contact--phone-icon"><a href="tel:88005558628">8 800 555-86-28</a></p>
         <p class="contact contact--mail-icon"><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
       </section>
-      <section class="address-block">
+      <section class="content-section address-block">
         <p class="contact contact--inverse-color contact--pin-icon">ул. Большая Конюшенная, 19/8</p>
         <a class="site-button site-button--bordered-button" href="#">Проложить маршрут</a>
         <div class="site-map"></div>
@@ -237,7 +238,7 @@
     </main>
     <footer class="page-footer">
       <a class="page-footer__logo-link">
-        <img class="page-footer__logo" src="https://via.placeholder.com/150x150" width="" height="" alt="Логотип сервиса Погнали">
+        <img class="page-footer__logo" src="img/logo-mobile-blue@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
       </a>
       <div class="page-footer__social social">
         <ul class="social__list">
@@ -255,7 +256,7 @@
       <div class="page-footer__copyright copyright">
         <p class="copyright__text">Разработано</p>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="copyright__logo" src="https://via.placeholder.com/150x150" width="" height="" alt="Логотип htmlacademy">
+          <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип htmlacademy">
         </a>
       </div>
     </footer>
