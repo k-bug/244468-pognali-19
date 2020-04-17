@@ -1,0 +1,18 @@
+.contact {
+  padding-left: 86px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact__link {
+  color: $base-button;
+  text-decoration: none;
+}
+
+.contact--inverse-color{
+  width: 143px;
+  color: $base-color;
+}

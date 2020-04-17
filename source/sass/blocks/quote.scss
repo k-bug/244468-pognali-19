@@ -1,4 +1,5 @@
 .quote {
+  font-family: "Blogger Sans", "Arial", sans-serif;
   color: #ffffff;
   width: 155px;
   margin: 0;
@@ -6,14 +7,14 @@
 }
 
 .quote__content {
+  font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  //font-weight: lighter;
 }
 
 .quote__author {
+  font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  font-weight: bold;
   font-style: normal;
 }

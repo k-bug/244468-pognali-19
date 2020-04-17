@@ -16,9 +16,13 @@
 @import "blocks/site-button.scss";
 @import "blocks/add-profile.scss";
 @import "blocks/quote.scss";
-@import "blocks/how-to";
-@import "blocks/conditions-list";
-@import "blocks/site-form";
+@import "blocks/how-to.scss";
+@import "blocks/conditions-list.scss";
+@import "blocks/site-form.scss";
+@import "blocks/content-link.scss";
+@import "blocks/contact.scss";
+@import "blocks/country-list.scss";
+@import "blocks/country-card.scss";
 
 body {
   margin: 0;
