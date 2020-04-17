@@ -1,8 +1,13 @@
 .content-section {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  position: relative;
+  margin-top: -50px;
 }
 
 .content-section__heading {
   color: $heading-color;
+  margin-top: 0;
+  margin-left: 50px;
+  padding-top: 30+72px;
 }

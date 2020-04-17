@@ -1,6 +1,8 @@
 .presentation {
+  position: relative;
   background-color: $base-color;
   padding-bottom: 39px;
+  z-index: 8;
 }
 
 .presentation__description {
