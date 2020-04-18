@@ -5,6 +5,44 @@
   z-index: 5;
 }
 
+.companions__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.companions__card {
+  position: relative;
+  width: 270px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.companions__card:last-child {
+  margin-bottom: 0;
+}
+
 .companions__text {
   color: #ffffff;
+}
+
+.companions__heading {
+  padding-top: 120px;
+}
+.companions__link {
+  text-decoration: none;
+}
+
+.companions__name {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+  color: $button-text;
+}
+
+.companions__tags {
+  list-style: none;
+  padding-left: 0;
 }

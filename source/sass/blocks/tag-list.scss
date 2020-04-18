@@ -1,0 +1,16 @@
+.tag-list {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tag-list__item {
+  padding-right: 2px;
+  padding-left: 2px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+}

@@ -1,0 +1,20 @@
+.connect-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 26px;
+}
+
+.connect-list__item {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+
+  &--phone {
+    background-color: #ff8d30;
+  }
+
+  &--mail {
+    background-color: #ffbd30;
+  }
+}
