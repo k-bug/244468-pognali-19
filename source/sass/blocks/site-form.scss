@@ -32,7 +32,7 @@
   border: none;
 }
 
-.site-form__button:before {
+.site-form__button::before {
   content: "";
   position: absolute;
   display: block;

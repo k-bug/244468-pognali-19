@@ -10,7 +10,7 @@
   padding-top: 100px;
 }
 
-.add-profile__heading:after {
+.add-profile__heading::after {
   content: "";
   position: absolute;
   display: block;

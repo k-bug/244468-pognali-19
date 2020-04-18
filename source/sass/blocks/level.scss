@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.level__number:after {
+.level__number::after {
   content: "";
   position: absolute;
   display: block;
@@ -36,7 +36,7 @@
   border: solid 3px #ff8d30;
 }
 
-.level__number:before {
+.level__number::before {
   content: "";
   position: absolute;
   display: block;
@@ -44,7 +44,7 @@
   left: 14px;
   width: 31px;
   height: 1px;
-  background-color: rgba(256,256, 256, 0.3);
+  background-color: rgba(256, 256, 256, 0.3);
 }
 
 .level__text {
