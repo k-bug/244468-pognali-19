@@ -1,4 +1,5 @@
 .page-header {
+  position: relative;
   background-color: $base-color;
   width: 320px;
   margin: 0 auto;
@@ -6,6 +7,7 @@
   color: #ffffff;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  z-index: 10;
 
   &--main-page {
     background-color: $base-color;
@@ -13,6 +15,8 @@
     margin: 0 auto;
     font-family: "Blogger Sans", "Arial", sans-serif;
     color: #ffffff;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
 
