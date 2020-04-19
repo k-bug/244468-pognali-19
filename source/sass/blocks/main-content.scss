@@ -4,6 +4,10 @@
   font-family: "Blogger Sans", "Arial", sans-serif;
 
   &--catalog {
+    position: relative;
     background-color: #edeff6;
+    margin-bottom: -50px;
+    padding-bottom: 50px + 46px;
+    z-index: 1;
   }
 }
