@@ -1,0 +1,36 @@
+.cotravelers-filter {
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: $base-button;
+  border-radius: 20px;
+}
+
+.cotravelers-filter__title {
+  width: 120px;
+  margin: 0;
+  padding-top: 6px;
+  padding-left: 6px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 22.5px;
+  line-height: 22.5px;
+  color: $button-text;
+}
+
+.cotravelers-filter__button {
+  width: 230px;
+  margin: 0 auto;
+  padding-top: 6px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: #161c35;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}

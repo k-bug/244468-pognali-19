@@ -2,9 +2,18 @@
   margin-top: -50px;
   padding-top: 30px + 20px;
   background-color: #e2e5f2;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .country-filter__collapsed {
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 15px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: $base-color;
+  text-transform: uppercase;
 }
