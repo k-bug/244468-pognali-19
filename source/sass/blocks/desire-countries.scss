@@ -1,11 +1,15 @@
 .desire-countries {
+  width: 230px;
   list-style: none;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .desire-countries__flag {
   width: 35px;
   height: 24px;
+  margin-right: 8px;
+  margin-left: 8px;
 }

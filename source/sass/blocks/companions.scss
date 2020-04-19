@@ -7,6 +7,7 @@
 
 .companions__list {
   list-style: none;
+  margin-top: 60px;
   padding-left: 0;
 }
 
@@ -36,6 +37,10 @@
 }
 
 .companions__name {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 18px;
   font-family: "Blogger Sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 21px;
@@ -43,7 +48,35 @@
   color: $button-text;
 }
 
+.companions__name::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 25px;
+  left: 63px;
+  width: 5px;
+  height: 5px;
+  background-color: #f97676;
+  border-radius: 3px;
+}
+
+.companions__name--active::before {
+  background-color: #81e31e;
+}
+
 .companions__tags {
   list-style: none;
+  padding-top: 16px;
   padding-left: 0;
+  margin: 0 auto;
+}
+
+.companions__countries {
+  margin: 0 auto;
+  margin-top: -18px;
+}
+
+.companions__photo {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
