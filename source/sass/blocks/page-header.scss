@@ -4,9 +4,23 @@
   margin: 0 auto;
   font-family: "Blogger Sans", "Arial", sans-serif;
   color: #ffffff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  &--main-page {
+    background-color: $base-color;
+    width: 320px;
+    margin: 0 auto;
+    font-family: "Blogger Sans", "Arial", sans-serif;
+    color: #ffffff;
+  }
 }
 
 .page-header__logo {
-  margin-top: 27px;
+  margin-top: 19px;
   margin-left: 25px;
+
+  &--main-page {
+    margin-top: 27px;
+  }
 }

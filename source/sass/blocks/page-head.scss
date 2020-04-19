@@ -1,0 +1,27 @@
+.page-head {
+  padding-top: 59px;
+}
+
+.page-head__title {
+  position: relative;
+  margin-top: 0;
+  margin-left: 27px;
+  padding-bottom: 8px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.page-head__title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 46px;
+  left: 0;
+  width: 169px;
+  height: 5px;
+  background-color: #ff8d30;
+  border-radius: 6px;
+}
