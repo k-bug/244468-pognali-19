@@ -33,65 +33,67 @@
     </header>
     <main class="main-content main-content--catalog">
       <div class="country-filter">
-        <h2 class="country-filter__collapsed">Фильтрация по странам</h2>
-        <div class="country-filter__wrapper">
-          <button class="cross-button" type="button" name="button">Закрыть</button>
-          <form class="country-filter__form" action="https://echo.htmlacademy.ru" method="get">
-            <ul class="country-filter__continents continents">
-              <li class="continents__item continents__item--active">Европа</li>
-              <li class="continents__item">Азия</li>
-              <li class="continents__item">Америка</li>
-              <li class="continents__item">Острова</li>
-            </ul>
-            <table class="country-filter__table alphabet">
-              <tr class="alphabet__row">
-                <td class="alphabet__cell alphabet__cell--active">А</td>
-                <td class="alphabet__cell">Б</td>
-                <td class="alphabet__cell">В</td>
-                <td class="alphabet__cell">Г</td>
-                <td class="alphabet__cell">Д</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">Е</td>
-                <td class="alphabet__cell">З</td>
-                <td class="alphabet__cell">И</td>
-                <td class="alphabet__cell">К</td>
-                <td class="alphabet__cell">Л</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">М</td>
-                <td class="alphabet__cell">Н</td>
-                <td class="alphabet__cell">О</td>
-                <td class="alphabet__cell">П</td>
-                <td class="alphabet__cell">Р</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">С</td>
-                <td class="alphabet__cell">Т</td>
-                <td class="alphabet__cell">У</td>
-                <td class="alphabet__cell">Ф</td>
-                <td class="alphabet__cell">Х</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">Ч</td>
-                <td class="alphabet__cell">Ш</td>
-                <td class="alphabet__cell">Э</td>
-                <td class="alphabet__cell">Ю</td>
-                <td class="alphabet__cell">Я</td>
-              </tr>
-            </table>
-            <ul class="country-filter__counties counties-list">
-              <li class="counties-list__item">Афганистан</li>
-              <li class="counties-list__item">Албания</li>
-              <li class="counties-list__item">Алжир</li>
-              <li class="counties-list__item">Андорра</li>
-              <li class="counties-list__item">Аргентина</li>
-              <li class="counties-list__item">Армения</li>
-              <li class="counties-list__item">Австралия</li>
-              <li class="counties-list__item">Азербайджан</li>
-            </ul>
-          </form>
-          <button class="country-filter__button collapse-button" type="button" name="button">Свернуть</button>
+        <div class="container">
+          <h2 class="country-filter__collapsed">Фильтрация по странам</h2>
+          <div class="country-filter__wrapper">
+            <button class="cross-button" type="button" name="button">Закрыть</button>
+            <form class="country-filter__form" action="https://echo.htmlacademy.ru" method="get">
+              <ul class="country-filter__continents continents">
+                <li class="continents__item continents__item--active">Европа</li>
+                <li class="continents__item">Азия</li>
+                <li class="continents__item">Америка</li>
+                <li class="continents__item">Острова</li>
+              </ul>
+              <table class="country-filter__table alphabet">
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell alphabet__cell--active">А</td>
+                  <td class="alphabet__cell">Б</td>
+                  <td class="alphabet__cell">В</td>
+                  <td class="alphabet__cell">Г</td>
+                  <td class="alphabet__cell">Д</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">Е</td>
+                  <td class="alphabet__cell">З</td>
+                  <td class="alphabet__cell">И</td>
+                  <td class="alphabet__cell">К</td>
+                  <td class="alphabet__cell">Л</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">М</td>
+                  <td class="alphabet__cell">Н</td>
+                  <td class="alphabet__cell">О</td>
+                  <td class="alphabet__cell">П</td>
+                  <td class="alphabet__cell">Р</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">С</td>
+                  <td class="alphabet__cell">Т</td>
+                  <td class="alphabet__cell">У</td>
+                  <td class="alphabet__cell">Ф</td>
+                  <td class="alphabet__cell">Х</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">Ч</td>
+                  <td class="alphabet__cell">Ш</td>
+                  <td class="alphabet__cell">Э</td>
+                  <td class="alphabet__cell">Ю</td>
+                  <td class="alphabet__cell">Я</td>
+                </tr>
+              </table>
+              <ul class="country-filter__counties counties-list">
+                <li class="counties-list__item">Афганистан</li>
+                <li class="counties-list__item">Албания</li>
+                <li class="counties-list__item">Алжир</li>
+                <li class="counties-list__item">Андорра</li>
+                <li class="counties-list__item">Аргентина</li>
+                <li class="counties-list__item">Армения</li>
+                <li class="counties-list__item">Австралия</li>
+                <li class="counties-list__item">Азербайджан</li>
+              </ul>
+            </form>
+            <button class="country-filter__button collapse-button" type="button" name="button">Свернуть</button>
+          </div>
         </div>
       </div>
       <div class="cotravelers-filter">
@@ -405,27 +407,29 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="page-footer__logo-link" href="index.html">
-        <img class="page-footer__logo" src="img/logo-mobile-blue@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
-      </a>
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">Facebook</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">ВКонтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--instagram" href="#">Instagram</a>
-          </li>
-        </ul>
-      </div>
-      <div class="page-footer__copyright copyright">
-        <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип htmlacademy">
+      <div class="container">
+        <a class="page-footer__logo-link" href="index.html">
+          <img class="page-footer__logo" src="img/logo-mobile-blue@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
         </a>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="#">Facebook</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">ВКонтакте</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип htmlacademy">
+          </a>
+        </div>
       </div>
     </footer>
   </body>
