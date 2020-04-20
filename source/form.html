@@ -11,7 +11,7 @@
       <a class="page-header__logo-link" href="index.html">
         <img class="page-header__logo" src="img/logo-mobile-white@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
       </a>
-      <nav class="main-nav">
+      <nav class="main-nav visually-hidden">
         <button class="main-nav__toggle" type="button">Меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
@@ -33,33 +33,35 @@
     </header>
     <main class="main-content">
       <section class="profile-section profile">
-        <h2 class="visually-hidden">Петя Демин</h2>
-        <div class="profile__main">
-          <div class="profile__level user-level">
-            <span class="user-level__value">80</span>
-            <p class="user-level__legend">level</p>
+        <div class="container">
+          <h2 class="visually-hidden">Петя Демин</h2>
+          <div class="profile__main">
+            <div class="profile__level user-level">
+              <span class="user-level__value">80</span>
+              <p class="user-level__legend">level</p>
+            </div>
+            <img class="profile__user-pic" src="https://via.placeholder.com/150x150" width="" height="" alt="Фото пользователя">
           </div>
-          <img class="profile__user-pic" src="https://via.placeholder.com/150x150" width="" height="" alt="Фото пользователя">
-        </div>
-        <button class="site-button change-button" type="button" name="button">Сменить фото</button>
-        <div class="profile__tags">
-          <h3 class="profile__subsection-title">Тэги</h3>
-          <ul class="profile__tag-list tag-list">
-            <li class="tag-list__item">#бургер</li>
-            <li class="tag-list__item">#бар</li>
-            <li class="tag-list__item">#футбол</li>
-            <li class="tag-list__item">#концерт</li>
-            <li class="tag-list__item">#крафт</li>
-          </ul>
-        </div>
-        <div class="profile__transport">
-          <h3 class="profile__subsection-title">Транспорт</h3>
-          <ul class="profile__transport transport">
-            <li class="transport__item "><span class="visually-hidden">Самолёт</span></li>
-            <li class="transport__item"><span class="visually-hidden">Автобус</span></li>
-            <li class="transport__item transport__item--inactive"><span class="visually-hidden">Веловипед</span></li>
-            <li class="transport__item"><span class="visually-hidden">Хайкинг</span></li>
-          </ul>
+          <button class="site-button change-button" type="button" name="button">Сменить фото</button>
+          <div class="profile__tags">
+            <h3 class="profile__subsection-title">Тэги</h3>
+            <ul class="profile__tag-list tag-list">
+              <li class="tag-list__item">#бургер</li>
+              <li class="tag-list__item">#бар</li>
+              <li class="tag-list__item">#футбол</li>
+              <li class="tag-list__item">#концерт</li>
+              <li class="tag-list__item">#крафт</li>
+            </ul>
+          </div>
+          <div class="profile__transport">
+            <h3 class="profile__subsection-title">Транспорт</h3>
+            <ul class="profile__transport transport">
+              <li class="transport__item "><span class="visually-hidden">Самолёт</span></li>
+              <li class="transport__item"><span class="visually-hidden">Автобус</span></li>
+              <li class="transport__item transport__item--inactive"><span class="visually-hidden">Веловипед</span></li>
+              <li class="transport__item"><span class="visually-hidden">Хайкинг</span></li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="profile-section my-plans">
