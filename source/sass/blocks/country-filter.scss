@@ -1,6 +1,7 @@
 .country-filter {
   margin-top: -50px;
   padding-top: 30px + 20px;
+  padding-bottom: 27px;
   background-color: #e2e5f2;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -16,4 +17,14 @@
   line-height: 22px;
   color: $base-color;
   text-transform: uppercase;
+}
+
+.country-filter__form {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.country-filter__button {
+  margin: 0 auto;
+  margin-top: 41px;
 }
