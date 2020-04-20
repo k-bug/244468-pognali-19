@@ -27,7 +27,36 @@
   text-decoration: none;
 }
 
+.cotraveler__main-info {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 18px;
+}
+
 .cotraveler__photo {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.cotraveler__name {
+  width: 78px;
+  margin-top: 0;
+  margin-left: 16px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: $button-text;
+}
+
+.cotraveler__tags {
+  margin-top: 16px;
+  padding-left: 11px;
+  justify-content: left;
+}
+
+.cotraveler__places {
+  margin-top: 20px;
+  margin-left: 10px;
 }

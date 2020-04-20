@@ -6,4 +6,19 @@
   color: $button-text;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+  border-collapse: collapse;
+}
+
+.alphabet__cell {
+  width: 45px;
+  height: 42px;
+  background-color: #ffffff;
+  border: 1px solid #cbced9;
+  text-align: center;
+}
+
+.alphabet__cell--active {
+  color: #ffffff;
+  background-color: $button-text;
+  border-color: $button-text;
 }

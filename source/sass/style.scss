@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "fonts.scss";
 @import "blocks/visually-hidden.scss";
+@import "blocks/container.scss";
 @import "blocks/content-text.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
@@ -41,6 +42,7 @@
 @import "blocks/collapse-button.scss";
 @import "blocks/counties-list.scss";
 @import "blocks/alphabet.scss";
+@import "blocks/places.scss";
 
 body {
   margin: 0;
