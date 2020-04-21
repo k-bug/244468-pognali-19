@@ -1,0 +1,20 @@
+.change-button {
+  display: block;
+  min-width: 270px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #dfe3f0;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: $button-text;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}

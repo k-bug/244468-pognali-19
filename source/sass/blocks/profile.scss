@@ -1,5 +1,37 @@
 .profile {
+  position: relative;
   margin-top: -50px;
+  padding-bottom: 50px;
   //padding: 0;
   background-color: #edeff6;
+  z-index: 1;
+}
+
+.profile__main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px + 23px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.profile__level {
+
+}
+
+.profile__user-pic {
+  border-radius: 50%;
+}
+
+.profile__button {
+  margin-top: 20px;
+}
+
+.profile__subsection-title {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: $button-text;
+  text-transform: uppercase;
 }

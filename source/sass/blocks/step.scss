@@ -1,0 +1,47 @@
+.step {
+  margin-top: 31px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px 20px 22px 20px;
+}
+
+.step__description {
+  width: 270px;//just for some time
+}
+
+.step__heading {
+  margin: 0;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: $button-text;
+}
+
+.step__label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step__item-name {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.6px;
+  color: $button-text;
+  text-transform: uppercase;
+}
+
+.step__item-measure {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.6px;
+  color: rgba(29, 46, 91, 0.3);
+  text-transform: uppercase;
+}
