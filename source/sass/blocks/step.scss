@@ -45,3 +45,59 @@
   color: rgba(29, 46, 91, 0.3);
   text-transform: uppercase;
 }
+
+.step__question {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #444444;
+}
+
+.step__input {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 13.5px;
+  color: $button-text;
+}
+
+.step__button {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: #161c35;
+  border-radius: 20px;
+  border: none;
+  background-color: $base-button;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.step__button--backward {
+  margin-top: 9px;
+  background-color: transparent;
+}
+
+.step__description {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.step__description::placeholder {
+  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(68, 68, 68, 0.3);
+}
