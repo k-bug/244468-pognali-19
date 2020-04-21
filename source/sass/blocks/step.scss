@@ -5,10 +5,6 @@
   padding: 24px 20px 22px 20px;
 }
 
-.step__description {
-  width: 270px;//just for some time
-}
-
 .step__heading {
   margin: 0;
   padding-left: 5px;
@@ -87,6 +83,7 @@
 }
 
 .step__description {
+  width: 270px;//just for some time
   font-family: "Blogger Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
