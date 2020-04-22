@@ -1,7 +1,6 @@
 .desire-countries {
+  @include resetList;
   width: 230px;
-  list-style: none;
-  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

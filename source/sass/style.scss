@@ -1,5 +1,7 @@
 @import "variables.scss";
 @import "fonts.scss";
+@import "mixin.scss";
+@import "scaffolding.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/container.scss";
 @import "blocks/content-text.scss";
@@ -55,6 +57,3 @@
 @import "blocks/country-select.scss";
 @import "blocks/country-data.scss";
 
-body {
-  margin: 0;
-}

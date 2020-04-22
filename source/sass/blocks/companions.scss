@@ -6,9 +6,8 @@
 }
 
 .companions__list {
-  list-style: none;
+  @include resetList;
   margin-top: 60px;
-  padding-left: 0;
 }
 
 .companions__card {
@@ -41,7 +40,7 @@
   display: block;
   margin: 0 auto;
   padding-top: 18px;
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 21px;
   line-height: 21px;

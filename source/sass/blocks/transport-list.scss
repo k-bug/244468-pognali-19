@@ -1,6 +1,5 @@
 .transport-list {
-  list-style: none;
-  padding-left: 0;
+  @include resetList;
   display: flex;
   flex-wrap: wrap;
 }

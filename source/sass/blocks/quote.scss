@@ -1,14 +1,12 @@
 .quote {
-  //width: 270px;
   margin: 0 auto;
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   color: #ffffff;
   padding-right: 80px;
   padding-left: 30px;
 }
 
 .quote__content {
-  //width: 160px;
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
@@ -16,7 +14,6 @@
 
 .quote__author {
   display: block;
-  //width: 160px;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;

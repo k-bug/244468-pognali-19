@@ -10,7 +10,7 @@
   padding-left: 5px;
   display: flex;
   flex-direction: column;
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -23,7 +23,7 @@
 }
 
 .step__item-name {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
@@ -33,7 +33,7 @@
 }
 
 .step__item-measure {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
@@ -43,15 +43,14 @@
 }
 
 .step__question {
-  font-family: "Blogger Sans", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: $main-font;
   font-size: 15px;
   line-height: 15px;
   color: #444444;
 }
 
 .step__input {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 15px;
   line-height: 13.5px;
@@ -64,7 +63,7 @@
   margin: 0 auto;
   padding-top: 6px;
   padding-bottom: 2px;
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 17px;
   line-height: 30px;
@@ -84,7 +83,7 @@
 
 .step__description {
   width: 270px;//just for some time
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -92,7 +91,7 @@
 }
 
 .step__description::placeholder {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;

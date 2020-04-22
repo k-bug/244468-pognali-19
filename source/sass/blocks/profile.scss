@@ -2,7 +2,6 @@
   position: relative;
   margin-top: -50px;
   padding-bottom: 50px;
-  //padding: 0;
   background-color: #edeff6;
   z-index: 1;
 }
@@ -24,7 +23,7 @@
 }
 
 .profile__subsection-title {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;

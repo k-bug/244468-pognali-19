@@ -1,7 +1,5 @@
 .authorisation-list {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+  @include resetList;
 }
 
 .authorisation-list__item {
@@ -9,7 +7,7 @@
 }
 
 .authorisation-list__button {
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 17px;
   line-height: 30px;

@@ -3,7 +3,7 @@
   background-color: $base-color;
   width: 320px;
   margin: 0 auto;
-  font-family: "Blogger Sans", "Arial", sans-serif;
+  font-family: $main-font;
   color: #ffffff;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -13,7 +13,7 @@
     background-color: $base-color;
     width: 320px;
     margin: 0 auto;
-    font-family: "Blogger Sans", "Arial", sans-serif;
+    font-family: $main-font;
     color: #ffffff;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -22,7 +22,6 @@
 
 .page-header__logo {
   margin-top: 19px;
-  margin-left: 25px;
 
   &--main-page {
     margin-top: 27px;

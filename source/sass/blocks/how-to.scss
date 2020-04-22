@@ -1,5 +1,4 @@
 .how-to {
-  //width: 270px;
   margin: 37px 5px 0 5px;
   box-sizing: border-box;
   padding-left: 0;
@@ -10,6 +9,7 @@
 }
 
 .how-to__item {
+  margin-top: -10px;
   padding-top: 24px;
   padding-bottom: 36px;
   padding-left: 24px;
@@ -20,17 +20,17 @@
 
 .how-to__item:nth-child(2) {
   background-color: #ffa530;
-  margin-top: -10px;
 }
 
 .how-to__item:nth-child(3) {
   background-color: #ffbd30;
-  margin-top: -10px;
+}
+
+.how-to__item:nth-child(4) {
+  background-color: #ffd74b;
 }
 
 .how-to__item:last-child {
-  background-color: #ffd74b;
-  margin-top: -10px;
   border-radius: 10px;
   padding-bottom: 26px;
 }
