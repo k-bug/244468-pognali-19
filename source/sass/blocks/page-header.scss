@@ -10,9 +10,10 @@
   z-index: 10;
 
   &--main-page {
-    background-color: $base-color;
+    background-color: transparent;
     width: 320px;
     margin: 0 auto;
+    margin-bottom: -52px;
     font-family: $main-font;
     color: #ffffff;
     border-bottom-right-radius: 0;
