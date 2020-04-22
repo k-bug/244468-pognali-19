@@ -5,3 +5,47 @@
   line-height: 20px;
   color: $button-text;
 }
+
+.calendar__table {
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 18px;
+  border-collapse: collapse;
+  color: #444444;
+}
+
+.calendar__cell {
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  border: 1px solid #d4d9eb;
+  box-sizing: border-box;
+}
+
+.calendar__week-day {
+  color: #444444;
+  text-transform: uppercase;
+  border: none;
+
+  &--holiday {
+    color: #ff5c23;
+  }
+}
+
+.calendar__day {
+  background-color: $additional-color;
+
+  &--past {
+    color: rgba(68, 68, 68, 0.3);
+    background-color: transparent;
+  }
+
+  &--today {
+    border: 2px solid #ff5c23;
+  }
+
+  &--pick {
+    color: #ffffff;
+    background-color: $button-text;
+  }
+}

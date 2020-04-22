@@ -2,12 +2,11 @@
   margin-top: 31px;
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 24px 20px 22px 20px;
+  padding: 24px 25px 22px 25px;
 }
 
 .step__heading {
   margin: 0;
-  padding-left: 5px;
   display: flex;
   flex-direction: column;
   font-family: $main-font;
@@ -49,6 +48,11 @@
   color: #444444;
 }
 
+.step__text {
+  margin: 0;
+  padding-top: 18px;
+}
+
 .step__input {
   font-family: $main-font;
   font-weight: 500;
@@ -58,9 +62,12 @@
 }
 
 .step__button {
-  width: 230px;
   display: block;
+  width: 230px;
   margin: 0 auto;
+  margin-top: 22px;
+  margin-right: -5px;
+  margin-left: -5px;
   padding-top: 6px;
   padding-bottom: 2px;
   font-family: $main-font;
@@ -78,13 +85,15 @@
 
 .step__button--backward {
   margin-top: 9px;
+  margin-bottom: -10px;
+  padding-bottom: 0;
   background-color: transparent;
 }
 
 .step__description {
-  width: 270px;//just for some time
+  width: 100%;
+  box-sizing: border-box;
   font-family: $main-font;
-  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #444444;
