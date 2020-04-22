@@ -1,3 +1,48 @@
 .user-level {
   position: relative;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-level__value {
+  margin: 0 auto;
+  padding-top: 23px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 38px;
+  color: #161c35;
+}
+
+.user-level__legend {
+  margin: 0 auto;
+  padding-top: 3px;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.user-level::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  border: solid 3px #ff8d30;
+}
+
+.user-level::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 59px;
+  left: 25px;
+  width: 49px;
+  height: 2px;
+  background-color: #cbced9;
 }
