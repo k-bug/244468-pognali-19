@@ -1,0 +1,10 @@
+.transport-list {
+  @include resetList;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.transport-list__item {
+  width: 20px;
+  height: 20px;
+}

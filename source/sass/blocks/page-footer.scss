@@ -1,0 +1,26 @@
+.page-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: $main-font;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.page-footer__logo-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+.page-footer__copyright {
+  padding-top: 37px;
+}
+
+.page-footer__social {
+  display: flex;
+  justify-content: center;
+}

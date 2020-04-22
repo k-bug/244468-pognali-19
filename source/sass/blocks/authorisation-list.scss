@@ -1,0 +1,25 @@
+.authorisation-list {
+  @include resetList;
+}
+
+.authorisation-list__item {
+  padding-top: 7px;
+}
+
+.authorisation-list__button {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: #161c35;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: $base-button;
+  border-radius: 20px;
+  width: 189px;
+  padding-top: 13px;
+  padding-right: 40px;
+  padding-bottom: 11px;
+  padding-left: 37px;
+}

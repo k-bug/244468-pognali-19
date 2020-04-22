@@ -1,0 +1,23 @@
+.carousel-buttons {
+  margin: 0 auto;
+  margin-top: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-buttons__item {
+  background-color: #ffffff;
+  width: 134px;
+  height: 50px;
+}
+
+.carousel-buttons__item--left {
+  width: 135px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.carousel-buttons__item--right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

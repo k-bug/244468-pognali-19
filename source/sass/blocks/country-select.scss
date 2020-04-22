@@ -1,0 +1,23 @@
+.country-select__option {
+  padding: 12px 12px 10px 12px;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  color: $button-text;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #cbced9;
+  border-radius: 4px;
+}
+
+.country-select__add-country {
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  color: $button-text;
+  text-transform: uppercase;
+}

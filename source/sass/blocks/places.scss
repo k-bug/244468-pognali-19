@@ -1,0 +1,36 @@
+.places {
+  border: none;
+  padding-left: 0;
+}
+
+.places__title {
+  font-family: $main-font;
+  font-size: 15px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.places__list {
+  @include resetList;
+}
+
+.places__item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.places__item:last-child {
+  margin-bottom: 0;
+}
+
+.places__name {
+  margin: 0;
+  padding-top: 2px;
+  padding-left: 15px;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: $button-text;
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.quote {
+  margin: 0 auto;
+  font-family: $main-font;
+  color: #ffffff;
+  padding-right: 80px;
+  padding-left: 30px;
+}
+
+.quote__content {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.quote__author {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
+}

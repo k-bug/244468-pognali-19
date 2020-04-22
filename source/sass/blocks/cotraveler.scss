@@ -1,0 +1,80 @@
+.cotraveler {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 22px;
+}
+
+.cotraveler:last-child {
+  margin-bottom: 0;
+}
+
+.cotraveler__button {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  color: #161c35;
+  border-radius: 20px;
+  background-color: $base-button;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cotraveler__main-info {
+  position: relative;
+  display: flex;
+  margin-right: 22px;
+  margin-left: 18px;
+}
+
+.cotraveler__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.cotraveler__name {
+  width: 78px;
+  margin-top: 0;
+  margin-left: 16px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: $button-text;
+}
+
+.cotraveler__tags {
+  margin-top: 16px;
+  margin-left: 26px;
+  justify-content: left;
+}
+
+.cotraveler__places {
+  margin-top: 20px;
+  margin-left: 26px;
+}
+
+.cotraveler__status {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 8px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #81e31e;
+
+  &--offline {
+    background-color: #f97676;
+  }
+}

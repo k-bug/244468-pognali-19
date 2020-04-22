@@ -1,0 +1,26 @@
+.site-button {
+  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: $base-button;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 18px;
+  color: $button-text;
+  text-decoration: none;
+}
+
+.site-button--bordered-button {
+  border: solid 3px $base-color;
+}
+
+.site-button--business-button {
+  background-color: transparent;
+  font-size: 16px;
+  padding-left: 24px;
+}

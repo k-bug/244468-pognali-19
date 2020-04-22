@@ -2,92 +2,100 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Погнали. Попутчики</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo" href="index.html">Погнали?</a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="index.html">О сервисе</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link" href="form.html">Направления</a>
-            </li>
-            <li class="main-nav__item">
-              <a class="main-nav__link">Попутчики</a>
-            </li>
-          </ul>
+      <div class="container">
+        <a class="page-header__logo-link" href="index.html">
+          <img class="page-header__logo" src="img/logo-mobile-white@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
+        </a>
+        <nav class="main-nav visually-hidden">
+          <button class="main-nav__toggle" type="button">Меню</button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="index.html">О сервисе</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="form.html">Направления</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link">Попутчики</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="page-head">
+          <h1 class="page-head__title">Попутчики</h1>
         </div>
-      </nav>
-      <div class="page-head">
-        <h1 class="page-head__title">Попутчики</h1>
       </div>
     </header>
-    <main>
+    <main class="main-content main-content--catalog">
       <div class="country-filter">
-        <h2 class="country-filter__collapsed">Фильтрация по странам</h2>
-        <div class="country-filter__wrapper">
-          <button class="cross-button" type="button" name="button">Закрыть</button>
-          <form class="country-filter__form" action="https://echo.htmlacademy.ru" method="get">
-            <ul class="country-filter__continents continents">
-              <li class="continents__item continents__item--active">Европа</li>
-              <li class="continents__item">Азия</li>
-              <li class="continents__item">Америка</li>
-              <li class="continents__item">Острова</li>
-            </ul>
-            <table class="country-filter__table alphabet">
-              <tr class="alphabet__row">
-                <td class="alphabet__cell alphabet__cell--active">А</td>
-                <td class="alphabet__cell">Б</td>
-                <td class="alphabet__cell">В</td>
-                <td class="alphabet__cell">Г</td>
-                <td class="alphabet__cell">Д</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">Е</td>
-                <td class="alphabet__cell">З</td>
-                <td class="alphabet__cell">И</td>
-                <td class="alphabet__cell">К</td>
-                <td class="alphabet__cell">Л</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">М</td>
-                <td class="alphabet__cell">Н</td>
-                <td class="alphabet__cell">О</td>
-                <td class="alphabet__cell">П</td>
-                <td class="alphabet__cell">Р</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">С</td>
-                <td class="alphabet__cell">Т</td>
-                <td class="alphabet__cell">У</td>
-                <td class="alphabet__cell">Ф</td>
-                <td class="alphabet__cell">Х</td>
-              </tr>
-              <tr class="alphabet__row">
-                <td class="alphabet__cell">Ч</td>
-                <td class="alphabet__cell">Ш</td>
-                <td class="alphabet__cell">Э</td>
-                <td class="alphabet__cell">Ю</td>
-                <td class="alphabet__cell">Я</td>
-              </tr>
-            </table>
-            <ul class="country-filter__counties counties-list">
-              <li class="counties-list__item">Афганистан</li>
-              <li class="counties-list__item">Албания</li>
-              <li class="counties-list__item">Алжир</li>
-              <li class="counties-list__item">Андорра</li>
-              <li class="counties-list__item">Аргентина</li>
-              <li class="counties-list__item">Армения</li>
-              <li class="counties-list__item">Австралия</li>
-              <li class="counties-list__item">Азербайджан</li>
-            </ul>
-          </form>
-          <button type="site-button collapce-button" name="button">Свернуть</button>
+        <div class="container">
+          <h2 class="country-filter__collapsed">Фильтрация по странам</h2>
+          <div class="country-filter__wrapper">
+            <button class="cross-button" type="button" name="button">Закрыть</button>
+            <form class="country-filter__form" action="https://echo.htmlacademy.ru" method="get">
+              <ul class="country-filter__continents continents">
+                <li class="continents__item continents__item--active">Европа</li>
+                <li class="continents__item">Азия</li>
+                <li class="continents__item">Америка</li>
+                <li class="continents__item">Острова</li>
+              </ul>
+              <table class="country-filter__table alphabet">
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell alphabet__cell--active">А</td>
+                  <td class="alphabet__cell">Б</td>
+                  <td class="alphabet__cell">В</td>
+                  <td class="alphabet__cell">Г</td>
+                  <td class="alphabet__cell">Д</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">Е</td>
+                  <td class="alphabet__cell">З</td>
+                  <td class="alphabet__cell">И</td>
+                  <td class="alphabet__cell">К</td>
+                  <td class="alphabet__cell">Л</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">М</td>
+                  <td class="alphabet__cell">Н</td>
+                  <td class="alphabet__cell">О</td>
+                  <td class="alphabet__cell">П</td>
+                  <td class="alphabet__cell">Р</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">С</td>
+                  <td class="alphabet__cell">Т</td>
+                  <td class="alphabet__cell">У</td>
+                  <td class="alphabet__cell">Ф</td>
+                  <td class="alphabet__cell">Х</td>
+                </tr>
+                <tr class="alphabet__row">
+                  <td class="alphabet__cell">Ч</td>
+                  <td class="alphabet__cell">Ш</td>
+                  <td class="alphabet__cell">Э</td>
+                  <td class="alphabet__cell">Ю</td>
+                  <td class="alphabet__cell">Я</td>
+                </tr>
+              </table>
+              <ul class="country-filter__counties counties-list">
+                <li class="counties-list__item">Афганистан</li>
+                <li class="counties-list__item">Албания</li>
+                <li class="counties-list__item">Алжир</li>
+                <li class="counties-list__item">Андорра</li>
+                <li class="counties-list__item">Аргентина</li>
+                <li class="counties-list__item">Армения</li>
+                <li class="counties-list__item">Австралия</li>
+                <li class="counties-list__item">Азербайджан</li>
+              </ul>
+            </form>
+            <button class="country-filter__button collapse-button" type="button" name="button">Свернуть</button>
+          </div>
         </div>
       </div>
       <div class="cotravelers-filter">
@@ -175,17 +183,17 @@
               </div>
             </div>
           </div>
-          <button class="site-button" type="submit" name="button">Показать</button>
+          <button class="cotravelers-filter__button" type="submit" name="button">Показать</button>
         </form>
       </div>
       <section class="cotravelers">
         <ul class="cotravelers-list">
           <li class="cotraveler">
             <div class="cotraveler__main-info">
-              <img class="cotraveler__photo" src="https://via.placeholder.com/150x150" alt="userpic">
+              <img class="cotraveler__photo" src="img/firsova-mobile@1x.jpg" width="70" height="70" alt="userpic">
               <span class="cotraveler__like"><span class="visually-hidden">В избранном</span></span>
-              <span class="cotraveler__likes">1,5 м<span class="visually-hidden">1500000 лайков</span></span>
               <h3 class="cotraveler__name">Таня Фирсова</h3>
+              <span class="cotraveler__likes">1,5 м<span class="visually-hidden">1500000 лайков</span></span>
               <span class="cotraveler__status cotraveler__status--offline"><span class="visually-hidden">offline</span></span>
             </div>
             <ul class="cotraveler__tags tag-list">
@@ -200,15 +208,15 @@
               <legend class="places__title">хочет посетить:</legend>
               <ul class="places__list">
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Шри Ланка</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Тайланд</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Сейшилы</p>
                 </li>
               </ul>
@@ -230,18 +238,18 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="cotraveler__level level">
-              <p class="level__legend">левел:</p>
-              <span class="level__value">99</span>
+            <div class="cotraveler__level catalog-level">
+              <p class="catalog-level__legend">левел:</p>
+              <span class="catalog-level__value">99</span>
             </div>
-            <a class="site-button" href="#">Позвать!</a>
+            <a class="cotraveler__button" href="#">Позвать!</a>
           </li>
           <li class="cotraveler">
             <div class="cotraveler__main-info">
-              <img class="cotraveler__photo" src="https://via.placeholder.com/150x150" alt="userpic">
+              <img class="cotraveler__photo" src="img/photo-account-mobile@1x.jpg" width="70" height="70" alt="userpic">
               <span class="cotraveler__like cotraveler__like--off"><span class="visually-hidden">Добавить в избранное</span></span>
+              <h3 class="cotraveler__name">Петя Демин</h3>
               <span class="cotraveler__likes">1500<span class="visually-hidden">1500 лайков</span></span>
-              <div class="cotraveler__name">Петя Демин</div>
               <span class="cotraveler__status cotraveler__status--offline"><span class="visually-hidden">offline</span></span>
             </div>
             <ul class="cotraveler__tags tag-list">
@@ -255,11 +263,11 @@
               <legend class="places__title">хочет посетить:</legend>
               <ul class="places__list">
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Бельгия</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Чехия</p>
                 </li>
               </ul>
@@ -281,18 +289,18 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="cotraveler__level level">
-              <p class="level__legend">левел:</p>
-              <span class="level__value">80</span>
+            <div class="cotraveler__level catalog-level">
+              <p class="catalog-level__legend">левел:</p>
+              <span class="catalog-level__value">80</span>
             </div>
-            <button class="site-button" type="button" name="button">Позвать!</button>
+            <a class="cotraveler__button" href="#">Позвать!</a>
           </li>
           <li class="cotraveler">
             <div class="cotraveler__main-info">
-              <img class="cotraveler__photo" src="https://via.placeholder.com/150x150" alt="userpic">
+              <img class="cotraveler__photo" src="img/smolov-mobile@1x.jpg" width="70" height="70" alt="userpic">
               <span class="cotraveler__like cotraveler__like--off"><span class="visually-hidden">Добавить в избранное</span></span>
-              <span class="cotraveler__likes">170<span class="visually-hidden">1500 лайков</span></span>
-              <div class="cotraveler__name">Марк Смолов</div>
+              <h3 class="cotraveler__name">Марк Смолов</h3>
+              <span class="cotraveler__likes">170<span class="visually-hidden">170 лайков</span></span>
               <span class="cotraveler__status cotraveler__status--offline"><span class="visually-hidden">offline</span></span>
             </div>
             <ul class="cotraveler__tags tag-list">
@@ -306,15 +314,15 @@
               <legend class="places__title">хочет посетить:</legend>
               <ul class="places__list">
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">США</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Австралия</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Доминикана</p>
                 </li>
               </ul>
@@ -336,17 +344,18 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="cotraveler__level level">
-              <p class="level__legend">левел:</p>
-              <span class="level__value">25</span>
+            <div class="cotraveler__level catalog-level">
+              <p class="catalog-level__legend">левел:</p>
+              <span class="catalog-level__value">25</span>
             </div>
-            <button class="site-button" type="button" name="button">Позвать!</button>
+            <a class="cotraveler__button" href="#">Позвать!</a>
           </li>
           <li class="cotraveler">
             <div class="cotraveler__main-info">
-              <img class="cotraveler__photo" src="https://via.placeholder.com/150x150" alt="userpic">
+              <img class="cotraveler__photo" src="img/rogovaya-mobile@1x.jpg" width="70" height="70" alt="userpic">
+              <h3 class="cotraveler__name">Лариса Роговая</h3>
+              <span class="cotraveler__likes">23<span class="visually-hidden">23 лайка</span></span>
               <span class="cotraveler__like cotraveler__like--off"><span class="visually-hidden">Добавить в избранное</span></span>
-              <div class="cotraveler__name">Лариса Роговая</div>
               <span class="cotraveler__status"><span class="visually-hidden">online</span></span>
               <span class="cotraveler__likes">23</span>
             </div>
@@ -360,11 +369,11 @@
               <legend class="places__title">хочет посетить:</legend>
               <ul class="places__list">
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Великобритания</p>
                 </li>
                 <li class="places__item">
-                  <img class="places__flag" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="places__flag" src="https://via.placeholder.com/26x18" width="26" height="18" alt="">
                   <p class="places__name">Германия</p>
                 </li>
               </ul>
@@ -386,14 +395,14 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="cotraveler__level level">
-              <p class="level__legend">левел:</p>
-              <span class="level__value">50</span>
+            <div class="cotraveler__level catalog-level">
+              <p class="catalog-level__legend">левел:</p>
+              <span class="catalog-level__value">50</span>
             </div>
-            <a class="site-button" href="#">Позвать!</a>
+            <a class="cotraveler__button" href="#">Позвать!</a>
           </li>
         </ul>
-        <a class="button-more" href="#">Показать еще</a>
+        <a class="cotravelers__button button-more" href="#">Показать еще</a>
         <div class="carousel-buttons">
           <a class="carousel-buttons__item carousel-buttons__item--left" href="#"></a>
           <a class="carousel-buttons__item carousel-buttons__item--right" href="#"></a>
@@ -401,27 +410,29 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="page-footer__logo-link" href="index.html">
-        <img class="page-footer__logo" src="https://via.placeholder.com/150x150" width="" height="" alt="Логотип сервиса Погнали">
-      </a>
-      <div class="page-footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">Facebook</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">ВКонтакте</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--instagram" href="#">Instagram</a>
-          </li>
-        </ul>
-      </div>
-      <div class="page-footer__copyright copyright">
-        <p class="copyright__text">Разработано</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img class="copyright__logo" src="https://via.placeholder.com/150x150" width="" height="" alt="Логотип htmlacademy">
+      <div class="container">
+        <a class="page-footer__logo-link" href="index.html">
+          <img class="page-footer__logo" src="img/logo-mobile-blue@1x.png" width="100" height="19" alt="Логотип сервиса Погнали">
         </a>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="#"><span class="visually-hidden">Facebook</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#"><span class="visually-hidden">ВКонтакте</span></a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="#"><span class="visually-hidden">Instagram</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип htmlacademy">
+          </a>
+        </div>
       </div>
     </footer>
   </body>

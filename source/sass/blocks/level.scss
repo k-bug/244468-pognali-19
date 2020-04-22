@@ -1,0 +1,59 @@
+.level {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+  top: 16px;
+  left: 17px;
+  width: 60px;
+  height: 60px;
+  font-family: $main-font;
+  color: #ffffff;
+}
+
+.level__number {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.level__number::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: solid 3px #ff8d30;
+}
+
+.level__number::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 36px;
+  left: 14px;
+  width: 31px;
+  height: 1px;
+  background-color: rgba(256, 256, 256, 0.3);
+}
+
+.level__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+}

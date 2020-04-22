@@ -1,0 +1,11 @@
+.main-content {
+  font-family: $main-font;
+
+  &--catalog {
+    position: relative;
+    background-color: #edeff6;
+    margin-bottom: -50px;
+    padding-bottom: 50px + 46px;
+    z-index: 1;
+  }
+}

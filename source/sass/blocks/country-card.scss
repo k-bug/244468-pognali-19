@@ -1,0 +1,53 @@
+.country-card {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.country-card__link {
+  text-decoration: none;
+}
+
+.country-card__info {
+  position: relative;
+  width: 270px;
+  min-height: 90px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: -11px;
+}
+
+.country-card__flag {
+  position: absolute;
+  margin-top: -12px;
+  margin-left: 25px;
+}
+
+.country-card__name {
+  margin: 0;
+  padding-top: 28px;
+  padding-left: 24px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+  color: #161c35;
+}
+
+.country-card__teaser {
+  margin: 0;
+  padding-top: 3px;
+  padding-left: 24px;
+  color: rgba(68, 68, 68, 0.3);
+}
+
+.country-card__visits {
+  position: absolute;
+  top: 31px;
+  right: 25px;
+  color: rgba(68, 68, 68, 0.3);
+}
+
+.country-card__preview {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

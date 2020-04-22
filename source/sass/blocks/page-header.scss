@@ -1,0 +1,28 @@
+.page-header {
+  position: relative;
+  background-color: $base-color;
+  margin: 0 auto;
+  font-family: $main-font;
+  color: #ffffff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 10;
+
+  &--main-page {
+    background-color: transparent;
+    margin: 0 auto;
+    margin-bottom: -52px;
+    font-family: $main-font;
+    color: #ffffff;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.page-header__logo {
+  margin-top: 19px;
+
+  &--main-page {
+    margin-top: 27px;
+  }
+}

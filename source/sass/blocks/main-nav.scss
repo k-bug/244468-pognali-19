@@ -1,0 +1,22 @@
+.main-nav {
+  background-color: #ffffff;
+}
+
+.main-nav__list {
+  @include resetList;
+  text-align: center;
+}
+
+.main-nav__item {
+  padding-bottom: 5px;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: $base-color;
+}

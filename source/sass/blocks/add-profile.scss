@@ -1,0 +1,25 @@
+.add-profile {
+  background-color: $additional-color;
+  padding-bottom: 20px;
+  z-index: 4;
+}
+
+.add-profile__heading {
+  position: relative;
+  width: 110px;
+  padding-top: 100px;
+}
+
+.add-profile__heading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/rates@1x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 90px;
+  left: 145px;
+  width: 99px;
+  height: 99px;
+}
