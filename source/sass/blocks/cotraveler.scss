@@ -2,6 +2,7 @@
   background-color: #ffffff;
   border-radius: 20px;
   margin-bottom: 10px;
+  padding-top: 15px;
   padding-bottom: 22px;
 }
 
@@ -28,9 +29,10 @@
 }
 
 .cotraveler__main-info {
+  position: relative;
   display: flex;
-  padding-top: 15px;
-  padding-left: 18px;
+  margin-right: 22px;
+  margin-left: 18px;
 }
 
 .cotraveler__photo {
@@ -59,4 +61,20 @@
 .cotraveler__places {
   margin-top: 20px;
   margin-left: 10px;
+}
+
+.cotraveler__status {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 8px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #81e31e;
+
+  &--offline {
+    background-color: #f97676;
+  }
 }
