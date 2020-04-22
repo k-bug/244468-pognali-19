@@ -1,0 +1,19 @@
+.copyright {
+  position: relative;
+  width: 270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 27px;
+  left: 0;
+  width: 270px;
+  height: 1px;
+  background-color: #f2f2f2;
+}

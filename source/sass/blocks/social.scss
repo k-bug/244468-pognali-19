@@ -1,0 +1,17 @@
+.social {
+  margin: 0 auto;
+  margin-top: 41px;
+}
+
+.social__list {
+  @include resetList;
+  display: flex;
+}
+
+.social__link {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: $base-button;
+  border-radius: 50%;
+}

@@ -17,21 +17,10 @@
 }
 
 .page-footer__copyright {
-  position: relative;
-  width: 270px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 37px;
 }
 
-.page-footer__copyright::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: -10px;
-  left: 0;
-  width: 270px;
-  height: 1px;
-  background-color: #f2f2f2;
+.page-footer__social {
+  display: flex;
+  justify-content: center;
 }
