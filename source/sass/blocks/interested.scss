@@ -1,15 +1,25 @@
 .interested {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 29px;
   background-color: $base-color;
   z-index: 3;
-  padding-bottom: 29px;
 }
 
 .interested__heading {
-  padding-top: 120px;
-  padding-left: 6px;
+  margin: 0 auto;
+  margin-left: 110px;
 }
 
 .interested__text {
+  width: 220px;
   color: #ffffff;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .interested__text {
+    width: 618px;
+  }
 }
