@@ -40,3 +40,58 @@
   width: 150px;
   margin: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .how-to {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 688px;
+  }
+
+  .how-to__item {
+    width: 50%;
+    margin-top: 0;
+    padding-bottom: 65px;
+    box-sizing: border-box;
+  }
+
+  .how-to__item:nth-child(3) {
+    //width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .how-to__item:nth-child(4) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-to {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 315px;
+  }
+
+  .how-to__item {
+    width: 25%;
+    margin-top: 0;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+  }
+
+  //.how-to__item:nth-child(3) {
+  //  border-top-right-radius: 0;
+  //  border-bottom-left-radius: 10px;
+  //}
+  //
+  //.how-to__item:nth-child(4) {
+  //  border-top-left-radius: 0;
+  //  border-top-right-radius: 0;
+  //}
+
+  .how-to__item:last-child {
+    border-radius: 10px;
+  }
+}

@@ -4,3 +4,9 @@
   margin: 0 auto;
   margin-top: 66px;
 }
+
+@media (min-width: $tablet-width) {
+  .country-list {
+    width: 100%;
+  }
+}

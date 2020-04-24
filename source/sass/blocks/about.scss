@@ -1,13 +1,60 @@
 .about {
+  padding-top: 33px;
+  padding-bottom: 74px;
   background-image: url("../img/about-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-color: $base-color;
   z-index: 7;
-  padding-top: 33px;
-  padding-bottom: 74px;
 }
 
 .about__text {
   color: #ffffff;
+}
+
+.about__button {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .about {
+    padding-top: 33px;
+    padding-bottom: 74px;
+    background-image: url("../img/about-tablet@1x.png");
+    background-position: center right;
+  }
+
+  .about__text {
+    width: 290px;
+  }
+
+  .about__text--minor {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .about__button {
+    display: block;
+    width: 274px;
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about {
+    padding-top: 33px;
+    padding-right: 35px;
+    padding-bottom: 74px;
+    padding-left: 35px;
+    background-image: url("../img/about-desktop@1x.png");
+    background-position: center right;
+  }
+
+  .about__text {
+    width: 637px;
+  }
+
+  .about__text--minor {
+    width: 425px;
+  }
 }

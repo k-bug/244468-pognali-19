@@ -9,8 +9,10 @@
 
 .country-card__info {
   position: relative;
-  width: 270px;
-  min-height: 90px;
+  padding-top: 28px;
+  padding-right: 24px;
+  padding-bottom: 26px;
+  padding-left: 24px;
   background-color: #ffffff;
   border-radius: 10px;
   margin-top: -11px;
@@ -18,14 +20,12 @@
 
 .country-card__flag {
   position: absolute;
-  margin-top: -12px;
-  margin-left: 25px;
+  top: -12px;
+  left: 24px;
 }
 
 .country-card__name {
   margin: 0;
-  padding-top: 28px;
-  padding-left: 24px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 21px;
@@ -36,7 +36,6 @@
 .country-card__teaser {
   margin: 0;
   padding-top: 3px;
-  padding-left: 24px;
   color: rgba(68, 68, 68, 0.3);
 }
 
@@ -50,4 +49,54 @@
 .country-card__preview {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .country-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .country-card__link {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .country-card__info {
+    position: relative;
+    margin-top: 0;
+    flex-grow: 1;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .country-card__name {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .country-card__preview {
+    width: 186px;
+    height: 140px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+  }
+
+  .country-card__flag {
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    top: 16px;
+    right: -35px;
+  }
+
+  .country-card__visits {
+    position: relative;
+    padding-top: 25px;
+    right: 0;
+  }
 }

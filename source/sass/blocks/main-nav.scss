@@ -1,5 +1,6 @@
 .main-nav {
   background-color: #ffffff;
+  display: none; //just for time
 }
 
 .main-nav__list {
@@ -19,4 +20,16 @@
   font-size: 30px;
   line-height: 36px;
   color: $base-color;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    display: flex;
+  }
 }

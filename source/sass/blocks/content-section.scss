@@ -1,14 +1,30 @@
 .content-section {
+  position: relative;
+  padding-right: 29px;
+  padding-left: 29px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  position: relative;
   margin-top: -50px;
 }
 
 .content-section__heading {
-  color: $heading-color;
   margin-top: 0;
-  margin-right: 50px;
-  margin-left: 30px;
+  margin-bottom: 0;
   padding-top: 50px;
+  font-family: $main-font;
+  font-size: 24px;
+  line-height: 24px;
+  color: $heading-color;
+}
+
+@media (min-width: $tablet-width) {
+  .content-section {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  .content-section__heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
 }

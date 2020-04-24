@@ -79,3 +79,9 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+@media (min-width: $tablet-width) {
+  .companions__list {
+    display: flex;
+  }
+}
