@@ -3,3 +3,18 @@
   padding-left: 49px;
   color: #444444;
 }
+
+@media (min-width: $tablet-width) {
+  .conditions-list__item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .conditions-list__item {
+    display: flex;
+    justify-content: space-between;
+    width: 815px;
+  }
+}

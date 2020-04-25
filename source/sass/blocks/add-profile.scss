@@ -1,25 +1,58 @@
 .add-profile {
+  position: relative;
   background-color: $additional-color;
   padding-bottom: 20px;
   z-index: 4;
 }
 
 .add-profile__heading {
-  position: relative;
   width: 110px;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
-.add-profile__heading::after {
+.add-profile__heading::before {
   content: "";
   position: absolute;
   display: block;
   background-image: url("../img/rates@1x.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   top: 90px;
-  left: 145px;
+  right: 45px;
   width: 99px;
   height: 99px;
+}
+
+@media (min-width: $tablet-width) {
+  .add-profile__heading {
+    width: 100%;
+  }
+
+  .add-profile__heading::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../img/rates@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 290px;
+    right: 45px;
+    width: 99px;
+    height: 99px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .add-profile__heading::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../img/rates@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 190px;
+    right: 45px;
+    width: 198px;
+    height: 198px;
+  }
 }
