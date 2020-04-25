@@ -26,8 +26,21 @@
 @media (min-width: $tablet-width) {
   .page-footer__wrapper {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     padding-top: 48px;
     padding-bottom: 46px;
+  }
+
+  .page-footer__logo-link {
+    width: 30%;
+    justify-content: left;
+  }
+
+  .page-footer__social {
+    width: 40%;
+  }
+
+  .page-footer__copyright {
+    width: 30%;
   }
 }
