@@ -114,3 +114,40 @@
     margin-top: 80px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .companions {
+    padding-bottom: 134px;
+  }
+
+  .companions__wrapper {
+    display: flex;
+    padding-top: 133px;
+    justify-content: space-between;
+  }
+
+  .companions__description {
+    width: 460px;
+  }
+
+  .companions__list {
+    margin-top: 0;
+    width: 633px;
+  }
+
+  .companions__heading {
+    padding-top: 0;
+  }
+
+  .content-text--minor {
+    position: relative;
+  }
+
+  .companions__button {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 24px;
+    width: 280px;
+    bottom: 134px;
+  }
+}
