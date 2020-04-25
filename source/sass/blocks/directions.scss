@@ -20,3 +20,42 @@
     padding-bottom: 88px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .directions {
+    padding-top: 160px;
+    padding-bottom: 134px;
+  }
+
+  .directions__wrapper {
+    display: flex;
+    width: 1178px;
+    margin: 0 auto;
+  }
+
+  .directions__countries {
+    order: 1;
+  }
+
+  .directions__description {
+    position: relative;
+    margin-right: 100px;
+    margin-left: 147px;
+    width: 370px;
+    order: 2;
+  }
+
+  .directions__button {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 733px;
+    width: 280px;
+    bottom: 134px;
+  }
+
+  .directions__text {
+    width: 370px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
