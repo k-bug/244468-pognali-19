@@ -1,5 +1,5 @@
 .contact {
-  padding-left: 86px;
+  padding-left: 61px;
   font-family: $main-font;
   font-size: 16px;
   line-height: 22px;
@@ -15,4 +15,19 @@
 .contact--inverse-color {
   width: 143px;
   color: $base-color;
+}
+
+@media (min-width: $desktop-width) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contact--inverse-color {
+    width: 100%;
+  }
 }

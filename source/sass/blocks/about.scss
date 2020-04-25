@@ -1,5 +1,5 @@
 .about {
-  padding-top: 33px;
+  padding-top: 83px;
   padding-bottom: 74px;
   background-image: url("../img/about-mobile@1x.png");
   background-repeat: no-repeat;
@@ -8,7 +8,14 @@
   z-index: 7;
 }
 
+.about__heading {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
 .about__text {
+  padding-right: 24px;
+  padding-left: 24px;
   color: #ffffff;
 }
 

@@ -78,7 +78,7 @@
       </section>
       <section class="content-section about">
         <div class="container">
-          <h2 class="content-section__heading">О сервисе</h2>
+          <h2 class="about__heading content-section__heading">О сервисе</h2>
           <p class="about__text content-text">
             Любое путешествие веселее
             с&nbsp;попутчиками, которые на
@@ -99,7 +99,7 @@
       <section class="content-section directions">
         <div class="container">
           <h2 class="content-section__heading directions__heading">Направления</h2>
-          <p class="content-text">
+          <p class="directions__text content-text">
             Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах,
             куда хотели бы отправиться и чем можно там заняться.</p>
           <ul class="country-list">
@@ -238,13 +238,15 @@
       </section>
       <section class="content-section interested">
         <div class="container">
-          <h2 class="content-section__heading interested__heading">Заинтересовались?</h2>
-          <p class="interested__text content-text">
-            Зарегистрируйтесь,
-            это быстро и бесплатно!
-            Уже&nbsp;зарегистрированы? Тогда
-            скорее <a class="content-link" href="authorisation.html">авторизуйтесь</a>.
-          </p>
+          <div class="interested__info">
+            <h2 class="content-section__heading interested__heading">Заинтересовались?</h2>
+            <p class="interested__text content-text">
+              Зарегистрируйтесь,
+              это быстро и бесплатно!
+              Уже&nbsp;зарегистрированы? Тогда
+              скорее <a class="content-link" href="authorisation.html">авторизуйтесь</a>.
+            </p>
+          </div>
           <form class="site-form" action="https://echo.htmlacademy.ru" method="post">
             <label class="site-form__label">
               <span class="visually-hidden">e-mail</span>
@@ -263,9 +265,9 @@
         </div>
       </section>
       <section class="content-section address-block">
-        <div class="container">
+        <div class="container address-block__wrapper">
           <p class="contact contact--inverse-color contact--pin-icon">ул. Большая Конюшенная, 19/8</p>
-          <a class="site-button site-button--bordered-button" href="#">Проложить маршрут</a>
+          <a class="site-button site-button--bordered-button address-block__button" href="#">Проложить маршрут</a>
         </div>
       </section>
       <div class="site-map"></div>

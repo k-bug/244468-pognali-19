@@ -7,12 +7,17 @@
   z-index: 3;
 }
 
+.interested__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .interested__heading {
   margin: 0 auto;
 }
 
 .interested__text {
-  width: 220px;
   color: #ffffff;
   text-align: center;
 }
