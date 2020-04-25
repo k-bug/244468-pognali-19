@@ -22,3 +22,20 @@
   background-color: $button-text;
   border-color: $button-text;
 }
+
+@media (min-width: $tablet-width) {
+  .alphabet {
+    font-size: 60px;
+  }
+
+  .alphabet__cell {
+    background-color: transparent;
+    color: rgba(25, 33, 68, 0.2);
+    width: 60px;
+    height: 60px;
+  }
+
+  .alphabet__cell--active {
+    color: $base-color;
+  }
+}

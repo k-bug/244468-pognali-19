@@ -37,3 +37,47 @@
 .country-filter__counties {
   margin-top: 28px;
 }
+
+@media (min-width: $tablet-width) {
+  .country-filter {
+    padding-top: 30px + 62px;
+    padding-bottom: 74px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .country-filter__form {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .country-filter__main-choose {
+    width: 366px;
+  }
+
+  .country-filter__table {
+    //width: 366px;
+  }
+
+  .country-filter__counties {
+    margin-top: 48px;
+  }
+
+  .country-filter__wrapper {
+    width: 619px;
+    margin: 0 auto;
+  }
+
+  .country-filter__collapsed {
+    display: none;
+  }
+
+  //.country-filter__countries-wrapper {
+  //  order: 1;
+  //}
+  //
+  //.country-filter__button {
+  //  order: 2;
+  //}
+}

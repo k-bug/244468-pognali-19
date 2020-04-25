@@ -19,3 +19,10 @@
 .continents__item--active {
   color: $base-color;
 }
+
+@media (min-width: $tablet-width) {
+  .continents {
+    display: flex;
+    justify-content: space-between;
+  }
+}
