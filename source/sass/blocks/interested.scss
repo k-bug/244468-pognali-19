@@ -27,3 +27,10 @@
     width: 618px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .interested__text {
+    margin: 0 auto;
+    margin-top: 71px;
+  }
+}

@@ -7,7 +7,7 @@
 .site-form__field {
   width: 100%;
   padding-top: 21px;
-  padding-right: 23px;
+  padding-right: 63px;
   padding-bottom: 19px;
   padding-left: 23px;
   box-sizing: border-box;
@@ -43,4 +43,60 @@
   background-color: #ffd74b;
   background-image: url("../img/triangle-arrow-right.svg");
   border-radius: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .site-form__field {
+    width: 100%;
+    padding-top: 31px;
+    padding-right: 90px;
+    padding-bottom: 25px;
+    padding-left: 34px;
+    border-radius: 20px;
+    border: none;
+    font-family: $main-font;
+    font-size: 24px;
+    font-weight: 700;
+    color: #444444;
+  }
+
+  .site-form__button::before {
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 82px;
+    height: 81px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-form {
+    width: 1174px;
+  }
+
+  .site-form__field {
+    padding-right: 340px;
+  }
+
+  .site-form__button::before {
+    content: "Регистрация";
+    font-family: $main-font;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-top: 31px;
+    padding-left: 36px;
+    text-align: left;
+    color: $button-text;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 288px;
+    height: 52px;
+    background-color: #ffd74b;
+    background-image: url("../img/triangle-arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 }
