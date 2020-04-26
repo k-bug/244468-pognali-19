@@ -122,3 +122,29 @@
     letter-spacing: 2px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .plan-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-right: 42px;
+    padding-bottom: 37px;
+    padding-left: 44px
+  }
+
+  .plan-card__number {
+    position: sticky;
+    padding-right: 34px;
+  }
+
+  .plan-card__subinfo::before {
+    display: none;
+  }
+
+  .plan-card__subinfo {
+    width: 587px;
+    margin-top: 0;
+    align-items: center;
+  }
+}
