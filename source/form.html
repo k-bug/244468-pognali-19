@@ -72,15 +72,19 @@
           <ul class="my-plans__list">
             <li class="my-plans__item plan-card">
               <h3 class="plan-card__heading"><span class="plan-card__number">1.</span>Франция, Италия</h3>
-              <div class="plan-card__cotravelers-number">3 попутчика</div>
-              <div class="plan-card__travel-period"><time datetime="2020-03-26">26 мар</time>-<time datetime="2020-03-29">29 мар</time></div>
-              <button class="plan-card__button" type="button" name="button">Изменить</button>
+              <div class="plan-card__subinfo">
+                <div class="plan-card__cotravelers-number">3 попутчика</div>
+                <div class="plan-card__travel-period"><time datetime="2020-03-26">26 мар</time>-<time datetime="2020-03-29">29 мар</time></div>
+                <button class="plan-card__button" type="button" name="button">Изменить</button>
+              </div>
             </li>
             <li class="my-plans__item plan-card">
               <h3 class="plan-card__heading"><span class="plan-card__number">2.</span>Тайланд, Индонезия</h3>
-              <div class="plan-card__cotravelers-number">1 попутчик</div>
-              <div class="plan-card__travel-period"><time datetime="2020-07-01">1 июл</time>-<time datetime="2020-07-15">15 июл</time></div>
-              <button class="plan-card__button" type="button" name="button">Изменить</button>
+              <div class="plan-card__subinfo">
+                <div class="plan-card__cotravelers-number">1 попутчик</div>
+                <div class="plan-card__travel-period"><time datetime="2020-07-01">1 июл</time>-<time datetime="2020-07-15">15 июл</time></div>
+                <button class="plan-card__button" type="button" name="button">Изменить</button>
+              </div>
             </li>
           </ul>
         </div>
@@ -229,8 +233,10 @@
               <div class="step__country-select country-select">
                 <button class="country-select__add-country" type="button" name="button">Добавить страну</button>
               </div>
-              <button class="step__button" type="button" name="button">Следующий шаг</button>
-              <button class="step__button step__button--backward" type="button" name="button">На шаг назад</button>
+              <div class="step__buttons">
+                <button class="step__button" type="button" name="button">Следующий шаг</button>
+                <button class="step__button step__button--backward" type="button" name="button">На шаг назад</button>
+              </div>
             </div>
             <div class="add-plan__step step">
               <h3 class="step__heading"><span class="step__heading-number">Шаг 3.</span>Развлечения</h3>
@@ -250,8 +256,10 @@
                 </div>
                 <textarea class="step__description" name="name" rows="8" cols="80" placeholder="План действий">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
               </div>
-              <button class="step__button" type="submit" name="button">Отправить</button>
-              <button class="step__button step__button--backward" type="button" name="button">На шаг назад</button>
+              <div class="step__buttons">
+                <button class="step__button" type="submit" name="button">Отправить</button>
+                <button class="step__button step__button--backward" type="button" name="button">На шаг назад</button>
+              </div>
             </div>
           </form>
         </div>

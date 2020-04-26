@@ -1,6 +1,9 @@
 .plan-card {
   margin-bottom: 10px;
-  padding-bottom: 15px;
+  padding-top: 24px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -11,8 +14,6 @@
 
 .plan-card__heading {
   margin: 0;
-  padding-top: 24px;
-  padding-left: 24px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 16px;
@@ -27,7 +28,6 @@
 
 .plan-card__cotravelers-number {
   margin-top: 21px;
-  margin-left: 25px;
   font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
@@ -39,7 +39,6 @@
 
 .plan-card__travel-period {
   margin-top: 5px;
-  margin-left: 25px;
   font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
@@ -51,7 +50,8 @@
 
 .plan-card__button {
   margin-top: 17px;
-  margin-left: 16px;
+  margin-bottom: -10px;
+  margin-left: -10px;
   padding: 10px;
   font-family: $main-font;
   font-weight: 500;
@@ -62,4 +62,63 @@
   text-transform: uppercase;
   border: none;
   background-color: transparent;
+}
+
+@media (min-width: $tablet-width) {
+  .plan-card {
+    padding-top: 40px;
+    padding-right: 32px;
+    padding-bottom: 19px;
+    padding-left: 33px;
+    position: relative;
+  }
+
+  .plan-card__number {
+    position: absolute;
+    top: 43px;
+    right: 32px;
+  }
+
+  .plan-card__heading {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  .plan-card__subinfo {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plan-card__subinfo::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+    height: 1px;
+    background-color: #f2f2f2;
+  }
+
+  .plan-card__cotravelers-number {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+
+  .plan-card__travel-period {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+
+  .plan-card__button {
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
 }

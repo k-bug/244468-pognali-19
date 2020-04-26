@@ -1,15 +1,28 @@
 .profile-section {
   margin-top: -30px;
+  padding-top: 29px;
   padding-bottom: 60px;
 }
 
 .profile-section__heading {
   margin: 0;
   margin-left: 6px;
-  padding-top: 29px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 24px;
   line-height: 24px;
   color: $button-text;
+}
+
+@media (min-width: $tablet-width) {
+  .profile-section {
+    padding-top: 57px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  .profile-section__heading {
+    font-size: 36px;
+    line-height: 50px;
+  }
 }
