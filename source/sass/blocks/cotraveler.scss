@@ -78,3 +78,31 @@
     background-color: #f97676;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .cotraveler {
+    width: 688px;
+    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-right: 25px;
+    padding-bottom: 26px;
+    padding-left: 35px;
+    box-sizing: border-box;
+  }
+
+  .cotraveler:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cotraveler {
+    width: 950px;
+    //margin-bottom: 40px;
+    //padding-top: 35px;
+    //padding-right: 25px;
+    //padding-bottom: 26px;
+    //padding-left: 35px;
+    //box-sizing: border-box;
+  }
+}

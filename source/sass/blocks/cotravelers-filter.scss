@@ -34,3 +34,23 @@
   background-color: #ffffff;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .cotravelers-filter {
+    width: 688px;
+    margin: 0 auto;
+    padding-top: 37px;
+    padding-right: 35px;
+    padding-bottom: 38px;
+    padding-left: 35px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cotravelers-filter {
+    width: 286px;
+    margin-top: 77px;
+    order: 3;
+  }
+}

@@ -9,3 +9,11 @@
     z-index: 1;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .main-content--catalog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+}

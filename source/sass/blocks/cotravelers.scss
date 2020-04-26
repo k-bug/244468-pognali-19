@@ -3,3 +3,19 @@
   margin: 0 auto;
   margin-top: 28px;
 }
+
+@media (min-width: $tablet-width) {
+  .cotravelers {
+    width: 688px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cotravelers {
+    width: 950px;
+    margin-top: 77px;
+    order: 2;
+  }
+}
