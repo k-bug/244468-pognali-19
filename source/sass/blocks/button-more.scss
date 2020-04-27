@@ -31,3 +31,24 @@
   background-color: $button-text;
   transform: rotate(90deg);
 }
+
+@media (min-width: $tablet-width) {
+  .button-more {
+    font-size: 20px;
+    padding-left: 52px;
+  }
+
+  .button-more::before {
+    top: 0;
+    left: 9px;
+    height: 27px;
+    width: 3px;
+  }
+
+  .button-more::after {
+    top: 0;
+    left: 9px;
+    height: 27px;
+    width: 3px;
+  }
+}
