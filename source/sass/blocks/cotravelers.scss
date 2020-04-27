@@ -2,6 +2,9 @@
   width: 270px;
   margin: 0 auto;
   margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cotravelers__button {
@@ -21,13 +24,12 @@
     width: 950px;
     margin-top: 77px;
     order: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .cotravelers__button {
     margin-top: 71px;
     padding-left: 52px;
   }
+
+
 }

@@ -1,5 +1,7 @@
 .button-more {
+  position: relative;
   display: block;
+  padding-left: 30px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 17px;
@@ -7,4 +9,25 @@
   color: $button-text;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.button-more::before {
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  content: ' ';
+  height: 18px;
+  width: 2px;
+  background-color: $button-text;
+}
+
+.button-more::after {
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  content: ' ';
+  height: 18px;
+  width: 2px;
+  background-color: $button-text;
+  transform: rotate(90deg);
 }
