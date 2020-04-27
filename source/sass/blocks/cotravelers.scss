@@ -4,6 +4,10 @@
   margin-top: 28px;
 }
 
+.cotravelers__button {
+  margin-top: 26px;
+}
+
 @media (min-width: $tablet-width) {
   .cotravelers {
     width: 688px;
@@ -17,5 +21,13 @@
     width: 950px;
     margin-top: 77px;
     order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cotravelers__button {
+    margin-top: 71px;
+    padding-left: 52px;
   }
 }
