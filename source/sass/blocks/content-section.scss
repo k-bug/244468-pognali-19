@@ -26,3 +26,12 @@
     line-height: 45px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .content-section__main-content {
+    margin-right: 100px;
+    margin-left: 147px;
+    width: 370px;
+    order: 2;
+  }
+}
