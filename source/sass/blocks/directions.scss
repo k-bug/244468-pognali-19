@@ -29,11 +29,12 @@
 
 @media (min-width: $tablet-width) {
   .directions {
-    padding-bottom: 88px;
+    padding-bottom: 208px;
   }
 
   .directions__button {
     width: 618px;
+    bottom: -147px;
   }
 }
 

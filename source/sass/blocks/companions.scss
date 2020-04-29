@@ -8,6 +8,7 @@
 .companions__list {
   @include resetList;
   margin-top: 60px;
+  margin-bottom: 87px;
 }
 
 .companions__card {
@@ -95,9 +96,17 @@
   margin-top: 21px;
 }
 
+.companions__button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  bottom: 30px;
+}
+
 @media (min-width: $tablet-width) {
   .companions {
-    padding-bottom: 88px;
+    padding-bottom: 249px;
   }
 
   .companions__list {
@@ -114,7 +123,8 @@
   }
 
   .companions__button {
-    margin-top: 80px;
+    width: 618px;
+    bottom: 88px;
   }
 }
 
