@@ -59,3 +59,9 @@
     padding-left: 40px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .presentation__content {
+    width: 1320px;
+  }
+}
