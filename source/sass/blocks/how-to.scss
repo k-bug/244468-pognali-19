@@ -45,7 +45,8 @@
   .how-to {
     display: flex;
     flex-wrap: wrap;
-    min-width: 688px;
+    width: 688px;
+    box-sizing: border-box;
   }
 
   .how-to__item {

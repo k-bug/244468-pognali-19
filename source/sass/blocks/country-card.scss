@@ -3,6 +3,10 @@
   border-radius: 10px;
 }
 
+.country-card:last-child {
+  margin-bottom: 0;
+}
+
 .country-card__link {
   text-decoration: none;
 }
@@ -90,7 +94,8 @@
     width: 70px;
     height: 47px;
     top: 16px;
-    right: 100px;
+    right: -35px;
+    left: auto;
   }
 
   .country-card__visits {
