@@ -127,6 +127,7 @@
     display: flex;
     padding-top: 133px;
     justify-content: space-between;
+    align-items: start;
   }
 
   .companions__description {
@@ -147,7 +148,6 @@
   }
 
   .companions__button {
-    position: absolute;
     margin-top: 0;
     margin-left: 24px;
     width: 280px;
