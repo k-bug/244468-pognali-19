@@ -1,0 +1,85 @@
+.contact-list {
+  @include resetList;
+  padding-top: 71px;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-list__item {
+  padding-left: 62px;
+  min-height: 45px;
+}
+
+.contact-list__link {
+  position: relative;
+  text-decoration: none;
+  color: $button-text;
+}
+
+.contact-list__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -17px;
+  left: -61px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #121936;
+}
+
+@media (min-width: $tablet-width) {
+  .contact-list {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .contact-list__item {
+    padding-left: 91px;
+    min-height: 68px;
+  }
+
+  .contact-list__link::before {
+    top: -22px;
+    left: -91px;
+    width: 68px;
+    height: 68px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contact-list {
+    display: flex;
+    padding-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contact-list__item {
+    min-height: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .contact-list__link::before {
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: -25px;
+    background-color: transparent;
+  }
+
+  .contact-list__link--phone::before {
+    background-color: #ff8d30;
+  }
+
+  .contact-list__link--mail::before {
+    background-color: #ffbd30;
+  }
+
+  .contact-list__content {
+    display: none;
+  }
+}

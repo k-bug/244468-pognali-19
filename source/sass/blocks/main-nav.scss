@@ -1,10 +1,22 @@
 .main-nav {
+  position: relative;
   background-color: #ffffff;
-  display: none; //just for time
+}
+
+.main-nav__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  box-sizing: border-box;
 }
 
 .main-nav__list {
   @include resetList;
+  padding-top: 75px;
   text-align: center;
 }
 
@@ -22,14 +34,124 @@
   color: $base-color;
 }
 
+.main-nav__toggle {
+  position: absolute;
+  right: 27px;
+}
+
+.main-nav__login {
+  order: 2;
+}
+
+.main-nav__contact {
+  order: 3;
+}
+
+.main-nav__social {
+  order: 4;
+}
+
 @media (min-width: $tablet-width) {
   .main-nav {
+    width: 768px;
     display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+
+  .main-nav__wrapper {
+    position: relative;
+    width: 688px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    box-sizing: border-box;
+  }
+
+  .main-nav__list {
+    text-align: left;
+  }
+
+  .main-nav__link {
+    font-size: 60px;
+    line-height: 71px;
+  }
+
+  .main-nav__toggle {
+    right: 336px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .main-nav {
     display: flex;
+    width: 1080px;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .main-nav__wrapper {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 49px;
+    margin-bottom: -49px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .main-nav__toggle{
+    display: none;
+  }
+
+  .main-nav__list {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-left: 106px;
+  }
+
+  .main-nav__list::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #f2f2f2;
+  }
+
+  .main-nav__login {
+    order: 3;
+  }
+
+  .main-nav__contact {
+    min-width: 100px;
+    order: 2;
+  }
+
+  .main-nav__social {
+    display: none;
+  }
+
+  .main-nav__item {
+    padding-left: 37px;
+  }
+
+  .main-nav__item:first-child {
+    padding-left: 0;
+  }
+
+  .main-nav__link {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
   }
 }

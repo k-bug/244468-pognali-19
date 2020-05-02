@@ -1,0 +1,30 @@
+.menu-social {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+
+.menu-social__list {
+  @include resetList;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-social__item {
+  width: 45px;
+  height: 45px;
+  background-color: $base-button;
+  border-radius: 50%;
+}
+
+@media (min-width: $tablet-width) {
+  .menu-social {
+    width: 580px;
+    margin: 0;
+    padding-top: 131px;
+  }
+  .menu-social__list {
+    justify-content: left;
+  }
+}

@@ -19,11 +19,17 @@
   }
 }
 
+.page-header__container {
+  width: 320px;
+  margin: 0 auto;
+}
+
 .page-header__logo {
   margin-top: 19px;
 
   &--main-page {
     margin-top: 27px;
+    margin-left: 27px;
   }
 }
 
@@ -31,5 +37,26 @@
   .page-header {
     border-bottom-right-radius: 60px;
     border-bottom-left-radius: 60px;
+  }
+
+  .page-header__container {
+    width: 768px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__container {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+
+    &--inner-page {
+      flex-direction: column;
+    }
+  }
+
+  .page-header__top {
+    display: flex;
+    justify-content: space-between;
   }
 }

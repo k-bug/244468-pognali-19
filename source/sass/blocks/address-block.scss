@@ -8,6 +8,7 @@
 @media (min-width: $desktop-width) {
   .address-block__wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
