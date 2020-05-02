@@ -46,3 +46,13 @@
   height: 2px;
   background-color: #cbced9;
 }
+
+@media (min-width: $desktop-width) {
+  .user-level__value {
+    color: #ffffff;
+  }
+
+  .user-level__legend {
+    color: #ffffff;
+  }
+}
