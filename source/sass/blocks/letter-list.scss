@@ -1,0 +1,41 @@
+.letter-list {
+  @include resetList;
+}
+
+.letter-list__item {
+  display: none;
+
+  &--current  {
+    display: initial;
+  }
+}
+
+.letter-list__letter {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .letter-list{
+    width: 1260px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 79px;
+    margin-left: 16px;
+  }
+
+  .letter-list__item {
+    display: initial;
+    margin-bottom: 63px;
+    width: 252px;
+  }
+
+  .letter-list__letter {
+    display: initial;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 24px;
+    color: $base-color;
+    text-transform: uppercase;
+  }
+}

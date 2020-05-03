@@ -1,11 +1,13 @@
 .counties-list {
-  margin-bottom: 0;
-  list-style: none;
-  padding-left: 0;
+  @include resetList;
+}
+
+.counties-list__link {
   font-family: $main-font;
   font-size: 16px;
   line-height: 22px;
   color: #444444;
+  text-decoration: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -13,5 +15,12 @@
     width: 174px;
     font-size: 20px;
     line-height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .counties-list {
+    width: 240px;
+    margin-right: 0;
   }
 }

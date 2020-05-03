@@ -56,12 +56,9 @@
     width: 366px;
   }
 
-  .country-filter__table {
-    //width: 366px;
-  }
-
   .country-filter__counties {
     margin-top: 48px;
+    margin-left: 79px;
   }
 
   .country-filter__wrapper {
@@ -72,19 +69,35 @@
   .country-filter__collapsed {
     display: none;
   }
-
-  //.country-filter__countries-wrapper {
-  //  order: 1;
-  //}
-  //
-  //.country-filter__button {
-  //  order: 2;
-  //}
 }
 
 @media (min-width: $desktop-width) {
   .country-filter {
     width: 100%;
     order: 1;
+  }
+
+  .country-filter__wrapper {
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .country-filter__main-choose {
+    position: absolute;
+    top: 0;
+    left: 300px;
+  }
+
+  .country-filter__counties {
+    margin-top: 49px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .country-filter__collapsed {
+    display: initial;
   }
 }

@@ -1,4 +1,7 @@
 .alphabet {
+  width: 225px;
+  display: flex;
+  flex-wrap: wrap;
   font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
@@ -6,18 +9,26 @@
   color: $button-text;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  border-collapse: collapse;
+  border-top: 1px solid #cbced9;
+  border-left: 1px solid #cbced9;
 }
 
 .alphabet__cell {
-  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
   height: 42px;
   background-color: #ffffff;
-  border: 1px solid #cbced9;
-  text-align: center;
+  border-right: 1px solid #cbced9;
+  border-bottom: 1px solid #cbced9;
 }
 
 .alphabet__cell--active {
+  width: 45px;
+  height: 43px;
+  margin-top: -1px;
+  margin-left: -1px;
   color: #ffffff;
   background-color: $button-text;
   border-color: $button-text;
@@ -25,17 +36,28 @@
 
 @media (min-width: $tablet-width) {
   .alphabet {
+    width: 365px;
+    margin-top: 15px;
+    margin-left: -16px;
     font-size: 60px;
+    border: none;
   }
 
   .alphabet__cell {
     background-color: transparent;
     color: rgba(25, 33, 68, 0.2);
-    width: 60px;
-    height: 60px;
+    width: 73px;
+    height: 80px;
+    border: none;
   }
 
   .alphabet__cell--active {
     color: $base-color;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .alphabet {
+    display: none;
   }
 }
