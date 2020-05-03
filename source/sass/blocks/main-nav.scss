@@ -53,8 +53,8 @@
 
 @media (min-width: $tablet-width) {
   .main-nav {
-    width: 768px;
     display: flex;
+    position: relative;
     padding-right: 40px;
     padding-left: 40px;
     box-sizing: border-box;
@@ -80,7 +80,9 @@
   }
 
   .main-nav__toggle {
-    right: 336px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-25px);
   }
 }
 
