@@ -56,7 +56,9 @@
   }
 
   .page-header__top {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    z-index: 15;
   }
 }
