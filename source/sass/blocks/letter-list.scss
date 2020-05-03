@@ -1,5 +1,7 @@
 .letter-list {
   @include resetList;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .letter-list__item {
@@ -17,6 +19,7 @@
 @media (min-width: $desktop-width) {
   .letter-list {
     width: 1260px;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 79px;

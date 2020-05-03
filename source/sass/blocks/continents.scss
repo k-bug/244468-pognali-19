@@ -1,5 +1,6 @@
 .continents {
   @include resetList;
+  padding-left: 25px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 16px;
@@ -23,6 +24,7 @@
 @media (min-width: $tablet-width) {
   .continents {
     display: flex;
+    padding-left: 0;
     justify-content: space-between;
   }
 }

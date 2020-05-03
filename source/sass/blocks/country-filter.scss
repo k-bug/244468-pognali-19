@@ -19,23 +19,32 @@
   text-transform: uppercase;
 }
 
-.country-filter__form {
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.country-filter__button {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 41px;
-}
-
 .country-filter__table {
   margin-top: 25px;
+  //margin-right: 25px;
+  margin-left: 25px;
 }
 
 .country-filter__counties {
   margin-top: 28px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.country-filter__button {
+  background-color: red;
+}
+
+.country-filter__wrapper {
+  width: 270px;
+  margin: 0 auto;
+}
+
+.country-filter__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
 }
 
 @media (min-width: $tablet-width) {
@@ -48,17 +57,12 @@
 
   .country-filter__form {
     padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .country-filter__main-choose {
-    width: 366px;
   }
 
   .country-filter__counties {
     margin-top: 48px;
-    margin-left: 79px;
+    padding: 0;
+    order: 1;
   }
 
   .country-filter__wrapper {
@@ -69,6 +73,21 @@
   .country-filter__collapsed {
     display: none;
   }
+
+  .country-filter__button {
+    height: 20px;
+    order: 2;
+  }
+
+  .country-filter__table {
+    order: 3;
+    margin: 0;
+    padding: 0;
+  }
+
+  .country-filter__counties-list {
+    order: 4;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -78,17 +97,18 @@
   }
 
   .country-filter__wrapper {
-    position: relative;
     width: 1320px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
 
-  .country-filter__main-choose {
-    position: absolute;
-    top: 0;
-    left: 300px;
+  .country-filter__form {
+    flex-wrap: wrap;
+  }
+
+  .country-filter__continents {
+    display: flex;
   }
 
   .country-filter__counties {
@@ -97,7 +117,20 @@
     margin-right: 0;
   }
 
+  .country-filter__filter-main {
+    display: flex;
+    order: 1;
+  }
+
   .country-filter__collapsed {
     display: initial;
+  }
+
+  .country-filter__button {
+    order: 3;
+  }
+
+  .country-filter__counties-list {
+    order: 4;
   }
 }

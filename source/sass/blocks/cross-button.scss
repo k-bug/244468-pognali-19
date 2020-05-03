@@ -1,5 +1,7 @@
 @media (min-width: $tablet-width) {
   .cross-button {
-    display: none;
+    //display: none;
+    width: 200px;
+    margin: 0;
   }
 }
