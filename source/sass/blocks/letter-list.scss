@@ -5,7 +5,7 @@
 .letter-list__item {
   display: none;
 
-  &--current  {
+  &--current {
     display: initial;
   }
 }
@@ -15,7 +15,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .letter-list{
+  .letter-list {
     width: 1260px;
     display: flex;
     flex-wrap: wrap;
