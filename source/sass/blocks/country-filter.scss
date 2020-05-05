@@ -35,10 +35,10 @@
   background-color: red;
 }
 
-.country-filter__wrapper {
-  width: 270px;
-  margin: 0 auto;
-}
+//.country-filter__wrapper {
+//  width: 270px;
+//  margin: 0 auto;
+//}
 
 .country-filter__form {
   display: flex;
@@ -49,6 +49,7 @@
 
 @media (min-width: $tablet-width) {
   .country-filter {
+    width: auto;
     padding-top: 30px + 62px;
     padding-bottom: 74px;
     border-bottom-right-radius: 60px;
@@ -56,6 +57,8 @@
   }
 
   .country-filter__form {
+    //width: 688px;
+    //margin: 0 auto;
     padding: 0;
   }
 
@@ -66,8 +69,10 @@
   }
 
   .country-filter__wrapper {
-    width: 619px;
-    margin: 0 auto;
+    //width: 619px;
+    //margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .country-filter__collapsed {
@@ -96,12 +101,12 @@
     order: 1;
   }
 
-  .country-filter__wrapper {
-    width: 1320px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
+  //.country-filter__wrapper {
+  //  width: 1320px;
+  //  margin: 0 auto;
+  //  display: flex;
+  //  flex-direction: column;
+  //}
 
   .country-filter__form {
     flex-wrap: wrap;

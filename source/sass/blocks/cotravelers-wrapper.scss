@@ -1,0 +1,9 @@
+@media (min-width: $desktop-width) {
+  .cotravelers-wrapper {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    order: 2;
+    align-items: start;
+  }
+}

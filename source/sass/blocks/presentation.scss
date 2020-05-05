@@ -53,15 +53,6 @@
 
 @media (min-width: $tablet-width) {
   .presentation__content {
-    width: 688px;
     margin: 0 auto;
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .presentation__content {
-    width: 1320px;
   }
 }

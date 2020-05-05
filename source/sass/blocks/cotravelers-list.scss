@@ -1,3 +1,9 @@
 .cotravelers-list {
   @include resetList;
 }
+
+@media (min-width: $desktop-width) {
+  .cotravelers-list {
+    width: 950px;
+  }
+}
