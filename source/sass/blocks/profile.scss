@@ -85,6 +85,10 @@
     z-index: 20;
   }
 
+  .profile__container {
+    box-sizing: border-box;
+  }
+
   .profile__user-pic {
     position: absolute;
     width: 190px;
